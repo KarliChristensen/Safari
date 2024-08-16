@@ -36,11 +36,10 @@ export default function Footer() {
                   {/* Company logo */}
                   <Link href="/">
                     <Image
-                      layout="responsive"
-                      src="/logo.png"
+                      src="/img/Logo/Icon/Shangamera_Logo_hartebeest_beige.png"
                       alt=""
-                      width={200}
-                      height={50}
+                      width={40}
+                      height={40}
                     />
                   </Link>
                 </div>
@@ -102,12 +101,7 @@ export default function Footer() {
               <div className="footer__area-widget-subscribe">
                 <form action="#">
                   {/* Email input */}
-                  <input
-                    type="text"
-                    name="email"
-                    placeholder="Email Address"
-                    
-                  />
+                  <input type="text" name="email" placeholder="Email Address" />
                   {/* Submit button */}
                   <button type="submit">
                     <i className="fal fa-hand-pointer"></i>
@@ -123,7 +117,11 @@ export default function Footer() {
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-7 md-mb-10">
               <div className="copyright__area-left md-t-center">
-                  <p>Copyright © 2023<a href="https://themeforest.net/user/themeori/portfolio"> ThemeOri</a> Website by<Link href="/"> Hostily</Link></p>
+                <p>
+                  Copyright © 2024
+                  <a href="https://placeholder.net"> ThemeOri</a> Website by
+                  <Link href="/"> Karli Christensen</Link>
+                </p>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-5">

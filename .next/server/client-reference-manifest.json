@@ -135,6 +135,54 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./app/room-style/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/room-style/page.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/team/servicesteam.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/team/servicesteam.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/services-details/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/services-details/page.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/about/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/about/page.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/blog-grid/blog-grid-container.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/blog-grid/blog-grid-container.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/blog-standard/blog-standard.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/blog-standard/blog-standard.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -223,7 +271,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/blog-standard/page:static/chunks/app/blog-standard/page.js"
       ],
       "async": false
     },
@@ -231,7 +279,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/blog-standard/page:static/chunks/app/blog-standard/page.js"
       ],
       "async": false
     },
@@ -239,7 +287,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/blog-standard/page:static/chunks/app/blog-standard/page.js"
       ],
       "async": false
     },
@@ -247,7 +295,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/blog-standard/page:static/chunks/app/blog-standard/page.js"
       ],
       "async": false
     },
@@ -287,7 +335,7 @@
       "id": "(app-client)/./app/header/HeaderOne.jsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/blog-standard/page:static/chunks/app/blog-standard/page.js"
       ],
       "async": false
     },
@@ -295,7 +343,7 @@
       "id": "(app-client)/./app/scroll-to-top/scrollToTop.jsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/blog-standard/page:static/chunks/app/blog-standard/page.js"
       ],
       "async": false
     },
@@ -319,7 +367,7 @@
       "id": "(app-client)/./components/seo.jsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/blog-standard/page:static/chunks/app/blog-standard/page.js"
       ],
       "async": false
     },
@@ -330,6 +378,54 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "Y:\\Post\\Safari\\app\\room-style\\page.jsx": {
+      "id": "(app-client)/./app/room-style/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/room-style/page:static/chunks/app/room-style/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\team\\servicesteam.jsx": {
+      "id": "(app-client)/./app/team/servicesteam.jsx",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\services-details\\page.jsx": {
+      "id": "(app-client)/./app/services-details/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/services-details/page:static/chunks/app/services-details/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\about\\page.jsx": {
+      "id": "(app-client)/./app/about/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\blog-grid\\blog-grid-container.jsx": {
+      "id": "(app-client)/./app/blog-grid/blog-grid-container.jsx",
+      "name": "*",
+      "chunks": [
+        "app/blog-grid/page:static/chunks/app/blog-grid/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\blog-standard\\blog-standard.jsx": {
+      "id": "(app-client)/./app/blog-standard/blog-standard.jsx",
+      "name": "*",
+      "chunks": [
+        "app/blog-standard/page:static/chunks/app/blog-standard/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
@@ -338,6 +434,28 @@
     ],
     "Y:\\Post\\Safari\\app\\layout": [
       "static/css/app/layout.css"
+    ],
+    "Y:\\Post\\Safari\\app\\room-style\\page": [
+      "static/css/app/room-style/page.css"
+    ],
+    "Y:\\Post\\Safari\\app\\[not-found]\\page": [],
+    "Y:\\Post\\Safari\\app\\team\\page": [
+      "static/css/app/team/page.css"
+    ],
+    "Y:\\Post\\Safari\\app\\services-details\\page": [
+      "static/css/app/services-details/page.css"
+    ],
+    "Y:\\Post\\Safari\\app\\about\\page": [
+      "static/css/app/about/page.css"
+    ],
+    "Y:\\Post\\Safari\\app\\contact\\page": [
+      "static/css/app/contact/page.css"
+    ],
+    "Y:\\Post\\Safari\\app\\blog-grid\\page": [
+      "static/css/app/blog-grid/page.css"
+    ],
+    "Y:\\Post\\Safari\\app\\blog-standard\\page": [
+      "static/css/app/blog-standard/page.css"
     ]
   }
 }

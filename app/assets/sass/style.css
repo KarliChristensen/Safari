@@ -578,18 +578,28 @@ Video Animation CSS
   display: none;
 }
 
+/* 
+
+Orange: #EA4D21 
+Beige: #C5912E
+Light biege: D6BE8E
+Tan: EDE5D1
+Black: #201F1D
+
+*/
+
 :root {
   --body-font: "Lato", sans-serif;
   --heading-font: "Bai Jamjuree", sans-serif;
   --white: #FFFFFF;
   --black: #000000;
-  --primary-color: #B89146;
+  --primary-color: #C5912E;
   --heading-color: #0E1317;
-  --body-color: #333334;
+  --body-color: #201F1D;
   --color-1: #666667;
   --color-2: #999999;
   --color-3: #CCCCCC;
-  --color-4: #F7F7F7;
+  --color-4: #EDE5D1;
   --color-5: #EDECE7;
   --color-6: #141C21;
   --color-7: #262B2E;
