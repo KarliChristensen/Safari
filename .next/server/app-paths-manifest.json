@@ -1,8 +1,10 @@
 {
   "/page": "app/page.js",
+  "/room-style/page": "app/room-style/page.js",
+  "/room-modern/page": "app/room-modern/page.js",
   "/contact/page": "app/contact/page.js",
-  "/room-details/page": "app/room-details/page.js",
+  "/[not-found]/page": "app/[not-found]/page.js",
+  "/about/page": "app/about/page.js",
   "/services-details/page": "app/services-details/page.js",
-  "/blog-grid/page": "app/blog-grid/page.js",
-  "/[not-found]/page": "app/[not-found]/page.js"
+  "/team/page": "app/team/page.js"
 }
