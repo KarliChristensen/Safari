@@ -33,9 +33,10 @@ export default function HeaderOne({ variant }) {
                 <Link href="/">
                   <Image
                     src="/img/Logo/Icon/Shangamera_Logo_hartebeest_beige.png"
+                    className="hover:scale-200 transition-all ease-in-out"
                     alt=""
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                   />
                 </Link>
                 <span
@@ -56,9 +57,9 @@ export default function HeaderOne({ variant }) {
                   className="mobile__menu"
                   style={{ display: `${mobileToggle ? "block" : "none"}` }}
                 >
-                  <li>
+                  {/*                   <li>
                     <Link href="/">Home</Link>
-                  </li>
+                  </li> */}
                   <li className="menu-item-has-children">
                     <a href="#">Pages</a>
                     <DropDown />
@@ -73,13 +74,13 @@ export default function HeaderOne({ variant }) {
                       <Room />
                     </ul>
                   </li>
-                  <li className="menu-item-has-children">
+                  {/*                   <li className="menu-item-has-children">
                     <a href="#">Blog</a>
                     <DropDown />
                     <ul className="sub-menu">
                       <Blog />
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/contact">Contact</Link>
                   </li>

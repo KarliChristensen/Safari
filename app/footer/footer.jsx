@@ -118,9 +118,7 @@ export default function Footer() {
             <div className="col-xl-6 col-lg-6 col-md-7 md-mb-10">
               <div className="copyright__area-left md-t-center">
                 <p>
-                  Copyright © 2024
-                  <a href="https://placeholder.net"> ThemeOri</a> Website by
-                  <Link href="/"> Karli Christensen</Link>
+                  Copyright © 2024 Shangamera - Website by Karli Christensen
                 </p>
               </div>
             </div>

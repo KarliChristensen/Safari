@@ -98,7 +98,9 @@ const FooterTwo = () => {
             <div className="row">
               <div className="col-xl-12">
                 <div className="copyright__two-title">
-                  <p>Copyright © 2023<a href="https://themeforest.net/user/themeori/portfolio"> ThemeOri</a> Website by<Link href="/"> Hostily</Link></p>
+                <p>
+                      Copyright © 2024 Shangamera - Website by Karli Christensen
+                    </p>
                 </div>
               </div>
             </div>

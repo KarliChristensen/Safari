@@ -23,7 +23,7 @@ export default function Home() {
         <Services />
         <Feature />
         <Testimonial />
-        <Blog />
+        {/* <Blog /> */}
         <Footer />
         <ScrollToTopButton />
     </>

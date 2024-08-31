@@ -91,11 +91,7 @@ const HeaderThree = () => {
                   </div>
                   <div className="header__area-menubar-right-sidebar-popup-bottom">
                     <p>
-                      Copyright © 2023{" "}
-                      <a href="https://themeforest.net/user/themeori/portfolio">
-                        ThemeOri
-                      </a>{" "}
-                      Website by <a href="index.html">Hostily</a>
+                      Copyright © 2024 Shangamera - Website by Karli Christensen
                     </p>
                     <div className="header__area-menubar-right-sidebar-popup-social">
                       <Social />

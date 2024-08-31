@@ -15,11 +15,6 @@ const Social = () => {
           </Link>
         </li>
         <li>
-          <Link href="https://www.behance.net" target="_blank">
-            <i className="fab fa-behance"></i>
-          </Link>
-        </li>
-        <li>
           <Link href="https://www.linkedin.com" target="_blank">
             <i className="fab fa-linkedin-in"></i>
           </Link>
