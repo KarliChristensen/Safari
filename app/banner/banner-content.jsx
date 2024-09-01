@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
+import Image from "next/image";
 
 const BannerContent = () => {
   const [isOpen, setOpen] = useState(false);
@@ -7,9 +8,12 @@ const BannerContent = () => {
     <div className="row">
       <div className="col-xl-12">
         <div className="banner__area-title">
-          <h1>
-            A Safari Experience<span>Unlike any other</span>
-          </h1>
+          <Image
+            src="/img/Logo/No icon/Shangamera_Logo_noicon_white.png"
+            alt=""
+            width={500}
+            height={30}
+          />
           <div className="banner__area-title-video">
             <div className="video__play">
               <React.Fragment>
