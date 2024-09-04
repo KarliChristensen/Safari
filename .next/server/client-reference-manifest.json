@@ -56,33 +56,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/accommodations/accommodations.jsx": {
+    "(app-client)/./app/contact/contact-container.jsx": {
       "*": {
-        "id": "(sc_client)/./app/accommodations/accommodations.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/banner/banner.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/banner/banner.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/blog/blog.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/blog/blog.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/deluxe/deluxe.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/deluxe/deluxe.jsx",
+        "id": "(sc_client)/./app/contact/contact-container.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -104,22 +80,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/testimonial/testimonial.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/testimonial/testimonial.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/videoarea/videoarea.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/videoarea/videoarea.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/seo.jsx": {
       "*": {
         "id": "(sc_client)/./components/seo.jsx",
@@ -136,121 +96,49 @@
         "async": false
       }
     },
-    "(app-client)/./app/team/servicesteam.jsx": {
+    "(app-client)/./app/accommodations/accommodations.jsx": {
       "*": {
-        "id": "(sc_client)/./app/team/servicesteam.jsx",
+        "id": "(sc_client)/./app/accommodations/accommodations.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/about/page.jsx": {
+    "(app-client)/./app/banner/banner.jsx": {
       "*": {
-        "id": "(sc_client)/./app/about/page.jsx",
+        "id": "(sc_client)/./app/banner/banner.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/room-details/room-details-container.jsx": {
+    "(app-client)/./app/deluxe/deluxe.jsx": {
       "*": {
-        "id": "(sc_client)/./app/room-details/room-details-container.jsx",
+        "id": "(sc_client)/./app/deluxe/deluxe.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/services-details/page.jsx": {
+    "(app-client)/./app/blog/blog.jsx": {
       "*": {
-        "id": "(sc_client)/./app/services-details/page.jsx",
+        "id": "(sc_client)/./app/blog/blog.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/blog-grid/blog-grid-container.jsx": {
+    "(app-client)/./app/testimonial/testimonial.jsx": {
       "*": {
-        "id": "(sc_client)/./app/blog-grid/blog-grid-container.jsx",
+        "id": "(sc_client)/./app/testimonial/testimonial.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/room-style/page.jsx": {
+    "(app-client)/./app/videoarea/videoarea.jsx": {
       "*": {
-        "id": "(sc_client)/./app/room-style/page.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-6.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-6.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-7.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-7.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-8.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-8.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-9.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-9.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-10.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-10.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-11.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-11.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-12.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-12.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-13.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-13.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/img/luxury/luxury-14.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/img/luxury/luxury-14.jpg",
+        "id": "(sc_client)/./app/videoarea/videoarea.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -343,7 +231,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -351,7 +239,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -359,7 +247,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -367,7 +255,47 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\contact\\contact-container.jsx": {
+      "id": "(app-client)/./app/contact/contact-container.jsx",
+      "name": "*",
+      "chunks": [
+        "app/contact/page:static/chunks/app/contact/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\header\\HeaderOne.jsx": {
+      "id": "(app-client)/./app/header/HeaderOne.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\scroll-to-top\\scrollToTop.jsx": {
+      "id": "(app-client)/./app/scroll-to-top/scrollToTop.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\components\\seo.jsx": {
+      "id": "(app-client)/./components/seo.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\layout.jsx": {
+      "id": "(app-client)/./app/layout.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -387,14 +315,6 @@
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\blog\\blog.jsx": {
-      "id": "(app-client)/./app/blog/blog.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "Y:\\Post\\Safari\\app\\deluxe\\deluxe.jsx": {
       "id": "(app-client)/./app/deluxe/deluxe.jsx",
       "name": "*",
@@ -403,19 +323,11 @@
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\header\\HeaderOne.jsx": {
-      "id": "(app-client)/./app/header/HeaderOne.jsx",
+    "Y:\\Post\\Safari\\app\\blog\\blog.jsx": {
+      "id": "(app-client)/./app/blog/blog.jsx",
       "name": "*",
       "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\scroll-to-top\\scrollToTop.jsx": {
-      "id": "(app-client)/./app/scroll-to-top/scrollToTop.jsx",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -434,175 +346,18 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "Y:\\Post\\Safari\\components\\seo.jsx": {
-      "id": "(app-client)/./components/seo.jsx",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\layout.jsx": {
-      "id": "(app-client)/./app/layout.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\team\\servicesteam.jsx": {
-      "id": "(app-client)/./app/team/servicesteam.jsx",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\about\\page.jsx": {
-      "id": "(app-client)/./app/about/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\room-details\\room-details-container.jsx": {
-      "id": "(app-client)/./app/room-details/room-details-container.jsx",
-      "name": "*",
-      "chunks": [
-        "app/room-details/page:static/chunks/app/room-details/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\services-details\\page.jsx": {
-      "id": "(app-client)/./app/services-details/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/services-details/page:static/chunks/app/services-details/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\blog-grid\\blog-grid-container.jsx": {
-      "id": "(app-client)/./app/blog-grid/blog-grid-container.jsx",
-      "name": "*",
-      "chunks": [
-        "app/blog-grid/page:static/chunks/app/blog-grid/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\room-style\\page.jsx": {
-      "id": "(app-client)/./app/room-style/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/room-style/page:static/chunks/app/room-style/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-6.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-6.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-7.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-7.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-8.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-8.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-9.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-9.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-10.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-10.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-11.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-11.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-12.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-12.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-13.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-13.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\public\\img\\luxury\\luxury-14.jpg": {
-      "id": "(app-client)/./public/img/luxury/luxury-14.jpg",
-      "name": "*",
-      "chunks": [
-        "app/room-modern/page:static/chunks/app/room-modern/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
-    "Y:\\Post\\Safari\\app\\page": [
-      "static/css/app/page.css"
+    "Y:\\Post\\Safari\\app\\contact\\page": [
+      "static/css/app/contact/page.css"
     ],
     "Y:\\Post\\Safari\\app\\layout": [
       "static/css/app/layout.css"
     ],
     "Y:\\Post\\Safari\\app\\[not-found]\\page": [],
-    "Y:\\Post\\Safari\\app\\team\\page": [
-      "static/css/app/team/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\about\\page": [
-      "static/css/app/about/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\contact\\page": [
-      "static/css/app/contact/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\room-details\\page": [
-      "static/css/app/room-details/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\services-details\\page": [
-      "static/css/app/services-details/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\blog-grid\\page": [
-      "static/css/app/blog-grid/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\room-style\\page": [
-      "static/css/app/room-style/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\room-modern\\page": [
-      "static/css/app/room-modern/page.css"
+    "Y:\\Post\\Safari\\app\\page": [
+      "static/css/app/page.css"
     ]
   }
 }

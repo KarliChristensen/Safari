@@ -1,6 +1,33 @@
+"use client";
+
 import Social from "../socials/page";
+import ContactForm from "./contactForm";
 
 const Contactcontainer = () => {
+  const handleSubmit = async (event, formData) => {
+    event.preventDefault(); // Prevent default form submission
+
+    try {
+      const response = await fetch("./sendEmail.js", {
+        // Adjusted path to your API route
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert("Your message has been sent successfully!");
+      } else {
+        alert("There was an error sending your message. Please try again.");
+      }
+    } catch (error) {
+      console.error(error);
+      alert("An error occurred. Please try again later.");
+    }
+  };
+
   return (
     <>
       <div className="contact__area section-padding pb-0">
@@ -33,7 +60,9 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Quick Email</span>
                     <h6>
-                      <a href="mailto:support@gamil.com">support@gamil.com</a>
+                      <a href="mailto:support@shangamera.com">
+                        Support@Shangamera.com
+                      </a>
                     </h6>
                   </div>
                 </div>
@@ -55,71 +84,8 @@ const Contactcontainer = () => {
             </div>
             <div className="col-xl-7 col-lg-7">
               <div className="contact__area-form">
-                <h3 className="mb-35">Send Massage</h3>
-                <form action="#">
-                  <div className="row">
-                    <div className="col-sm-6 mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="fal fa-user"></i>
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Full Name"
-                          required="required"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6 sm-mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-envelope-open"></i>
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Email Address"
-                          required="required"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6 mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-phone-alt"></i>
-                        <input
-                          type="text"
-                          name="phone"
-                          placeholder="Phone"
-                          required="required"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6 sm-mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-address-book"></i>
-                        <input
-                          type="text"
-                          name="subject"
-                          placeholder="Subject"
-                          required="required"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-12 mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-comments"></i>
-                        <textarea
-                          name="message"
-                          placeholder="Type your comments...."
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="contact__area-form-item">
-                        <button className="theme-btn" type="submit">
-                          Submit Now<i className="fal fa-long-arrow-right"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+                <h3 className="mb-35">Booking Information</h3>
+                <ContactForm onSubmit={handleSubmit} />
               </div>
             </div>
           </div>
