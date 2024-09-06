@@ -34,7 +34,7 @@ export default function HeaderOne({ variant }) {
                   <Image
                     src="/img/Logo/Icon/Shangamera_Logo_hartebeest_beige.png"
                     className="hover:scale-200 transition-all ease-in-out"
-                    alt=""
+                    alt="Hartebeest Logo"
                     width={30}
                     height={30}
                   />

@@ -1,3 +1,5 @@
+"use client"
+
 import SEO from "@/components/seo";
 import BreadCrumb from "../breadcrumb/breadcrumb";
 import Footer from "../footer/footer";
