@@ -18,7 +18,7 @@ const NotFound = () => {
                                 <div className="error-page t-center">
                                     <img src="/404.svg" alt="error" />
                                     <div>
-                                        <Link class="theme-btn mt-50" href="/">Back to Home</Link>
+                                        <Link className="theme-btn mt-50" href="/">Back to Home</Link>
                                     </div>
                                 </div>
                             </div>

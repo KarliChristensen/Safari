@@ -37,7 +37,7 @@ export default function Footer() {
                   <Link href="/">
                     <Image
                       src="/img/Logo/Icon/Shangamera_Logo_hartebeest_beige.png"
-                      alt=""
+                      alt="Hartebeest Logo"
                       width={40}
                       height={40}
                     />
