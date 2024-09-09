@@ -10,8 +10,8 @@ export async function POST(request) {
       host: "smtp.zoho.eu",
       port: 465,
       auth: {
-        user: "booking@shangamera.com",
-        pass: "wxzbqb2uocspebd3XhfT",
+        user: process.env.ZOHO_EMAIL,
+        pass: process.env.ZOHO_PASSWORD,
       },
     });
 
