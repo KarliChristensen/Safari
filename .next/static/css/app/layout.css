@@ -19062,6 +19062,7 @@ Footer
 .footer__area {
   background: var(--heading-color);
   padding-top: 90px;
+  padding-bottom: 90px;
 }
 .footer__area-widget h5 {
   color: var(--white);
@@ -20927,3 +20928,10 @@ Contact
   display: block;
   filter: grayscale(1);
 }/*# sourceMappingURL=style.css.map */
+
+.extra_contact__area-form-item {
+  position: absolute;
+  left: 20px;
+  top: 23px;
+  color: var(--primary-color);
+}

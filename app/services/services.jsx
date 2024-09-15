@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Services() {
+export default function Trips() {
   return (
     <div className="services__area section-padding">
       <div className="container">

@@ -11,7 +11,7 @@ export const Page = () => (
     <Fragment>
         <li><Link href="/about">About</Link></li>
         <li><Link href="/team">Team</Link></li>
-        <li><Link href="/services-details">Services Details</Link></li>
+        <li><Link href="/trip-details">Trip Details</Link></li>
     </Fragment>
 );
 export const Room = () => (

@@ -76,7 +76,7 @@ const HeaderTwo = ({variant}) => {
                                         </ul>
                                     </DropDown>
 								</li>
-								<li><Link href="/contact">Contact</Link></li>
+								<li><Link href="/booking">Booking</Link></li>
 							</ul>
                     </div>
                     <div className="header__area-menubar-right-box">

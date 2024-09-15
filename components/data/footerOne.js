@@ -6,7 +6,7 @@ const footerOne = {
     widgetMenus: [
         {link:'/about',title:'About Us'},
         {link:'/blog-grid',title:'Blog'},
-        {link:'/contact',title:'Contact Us'},
+        {link:'/booking',title:'Booking'},
         {link:'/room-list',title:'Room List'},
     ],
     title_3: 'Gallery',
@@ -14,7 +14,7 @@ const footerOne = {
     office_des: '1234 Lake Tahoe Blvd, South Lake Tahoe , California USA',
     officeInfos: [
         {link:'https://www.google.com/maps',info:'GXF4+8HQ Chippenham United Kingdom',icon: <i className="fal fa-map-marked-alt"></i>},
-        {link:'mailto:info.help@gmail.com',info:'info.help@gmail.com',icon: <i className="fal fal fa-envelope-open-text"></i>},
+        {link:'mailto:support@shangamera.com',info:'support@shangamera.com',icon: <i className="fal fal fa-envelope-open-text"></i>},
         {link:'tel:+125(895)658568',info:'+125 (895) 658 568',icon: <i className='fal fa-phone-alt'></i>}
     ],
   }
