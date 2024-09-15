@@ -10,7 +10,7 @@ const Banner = () => {
     >
       <div className="container">
         <BannerContent />
-        <BannerCta />
+        {/* <BannerCta /> */}
       </div>
     </div>
   );

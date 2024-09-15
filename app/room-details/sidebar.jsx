@@ -13,7 +13,7 @@ const Sidebar = () => {
                                     <li><i className="fal fa-users"></i>(6) Guest's</li>
                                 </ul>
                                 <h4>$219<span>/Night</span></h4>
-                                <a className="theme-btn" href="/contact">Book Now<i className="fal fa-long-arrow-right"></i></a>
+                                <a className="theme-btn" href="/booking">Book Now<i className="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                         <div className="all__sidebar-item">

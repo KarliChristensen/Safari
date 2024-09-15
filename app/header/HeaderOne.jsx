@@ -82,14 +82,14 @@ export default function HeaderOne({ variant }) {
                     </ul>
                   </li> */}
                   <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/booking">Booking</Link>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="header__area-menubar-right-box">
               <div className="header__area-menubar-right-box-btn">
-                <Link className="theme-btn" href="/contact">
+                <Link className="theme-btn" href="/booking">
                   Book Now<i className="fal fa-long-arrow-right"></i>
                 </Link>
               </div>

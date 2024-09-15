@@ -85,7 +85,7 @@ const HeaderThree = () => {
                         </ul>
                       </li>
                       <li>
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/booking">Booking</Link>
                       </li>
                     </ul>
                   </div>

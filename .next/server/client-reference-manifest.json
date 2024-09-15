@@ -40,17 +40,17 @@
         "async": false
       }
     },
-    "(app-client)/./app/layout.jsx": {
+    "(app-client)/./app/booking/page.jsx": {
       "*": {
-        "id": "(sc_client)/./app/layout.jsx",
+        "id": "(sc_client)/./app/booking/page.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/contact/page.jsx": {
+    "(app-client)/./app/layout.jsx": {
       "*": {
-        "id": "(sc_client)/./app/contact/page.jsx",
+        "id": "(sc_client)/./app/layout.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -139,6 +139,14 @@
       ],
       "async": false
     },
+    "Y:\\Post\\Safari\\app\\booking\\page.jsx": {
+      "id": "(app-client)/./app/booking/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/booking/page:static/chunks/app/booking/page.js"
+      ],
+      "async": false
+    },
     "Y:\\Post\\Safari\\app\\layout.jsx": {
       "id": "(app-client)/./app/layout.jsx",
       "name": "*",
@@ -146,22 +154,14 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
-    },
-    "Y:\\Post\\Safari\\app\\contact\\page.jsx": {
-      "id": "(app-client)/./app/contact/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/contact/page:static/chunks/app/contact/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
+    "Y:\\Post\\Safari\\app\\booking\\page": [
+      "static/css/app/booking/page.css"
+    ],
     "Y:\\Post\\Safari\\app\\layout": [
       "static/css/app/layout.css"
-    ],
-    "Y:\\Post\\Safari\\app\\contact\\page": [
-      "static/css/app/contact/page.css"
     ]
   }
 }

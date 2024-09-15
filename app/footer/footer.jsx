@@ -112,35 +112,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="copyright__area">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-6 col-lg-6 col-md-7 md-mb-10">
-              <div className="copyright__area-left md-t-center">
-                <p>
-                  Copyright © 2024 Shangamera - Website by Karli Christensen
-                </p>
-              </div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-5">
-              <div className="copyright__area-right t-right md-t-center">
-                {/* Footer links */}
-                <ul>
-                  <li>
-                    <a href="#">FAQ</a>
-                  </li>
-                  <li>
-                    <a href="#">Terms of Use</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy Policy</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

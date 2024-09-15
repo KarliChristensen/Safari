@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 export async function POST(request) {
   console.log("sendMail function triggered");
   try {
-    const { name, email, phone, subject, message, khwai, savuti, chobe } =
+    const { name, email, phone, victoria, message, khwai, savuti, chobe } =
       await request.json();
 
     const transporter = nodemailer.createTransport({
@@ -28,7 +28,9 @@ export async function POST(request) {
 
         Phone: ${phone}
 
-        People wishing to go: Okavango Delta ${khwai}, Savuti: ${savuti}, and Chobe: ${chobe}
+        Total amount of people wishing to go: Okavango Delta ${khwai}, Savuti: ${savuti}, and Chobe: ${chobe}.
+
+        Optional add-on: ${victoria},
 
         Further information: ${message}
       `,
