@@ -92,7 +92,7 @@ const TripDetails = () => {
                 <span>
                   With a healthy predator population, including frequent
                   sightings of lions, leopards, hyenas, and the endangered
-                  African wild dog, Khvwai is an exceptional chance to view a
+                  African wild dog, Khwai is an exceptional chance to view a
                   living, breathing predator prey relationship.
                 </span>
                 <p>
