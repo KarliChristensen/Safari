@@ -6,14 +6,14 @@ const faqData = {
       class: "icon page collapsed",
       class2: "faq__area-item-body collapse",
       title: "How do we arrange for payment?",
-      des: "After recieving your booking information, we will reach out to make absolutely sure that the details are in order. We will then arrange for payment once the final steps are complete and we can assure your journey with us has been properly organized.",
+      des: "After receiving your booking information, we will reach out to ensure that all details are in order. Once the final steps are complete, we will arrange for payment and confirm that your journey with us has been properly organized.",
     },
     {
       id: "collapseTwoPage",
       class: "icon page",
       class2: "faq__area-item-body collapse show",
-      title: "What documents are needed for hotel booking ?",
-      des: "Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in.",
+      title: "What are your prices?",
+      des: "Our tours are priced at 470 USD per person, per night. Therefore, the 5-day trip through Khwai Okavango totals 1880 USD per person. The full experience, which includes 2 nights in Savuti Private Reserve and 2 nights in Chobe National Park, amounts to 3760 USD per person.",
     },
     {
       id: "collapseThreePage",

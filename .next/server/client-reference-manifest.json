@@ -152,17 +152,17 @@
         "async": false
       }
     },
-    "(app-client)/./app/team/servicesteam.jsx": {
+    "(app-client)/./app/about/page.jsx": {
       "*": {
-        "id": "(sc_client)/./app/team/servicesteam.jsx",
+        "id": "(sc_client)/./app/about/page.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/about/page.jsx": {
+    "(app-client)/./app/team/servicesteam.jsx": {
       "*": {
-        "id": "(sc_client)/./app/about/page.jsx",
+        "id": "(sc_client)/./app/team/servicesteam.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -379,19 +379,19 @@
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\team\\servicesteam.jsx": {
-      "id": "(app-client)/./app/team/servicesteam.jsx",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
     "Y:\\Post\\Safari\\app\\about\\page.jsx": {
       "id": "(app-client)/./app/about/page.jsx",
       "name": "*",
       "chunks": [
         "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\team\\servicesteam.jsx": {
+      "id": "(app-client)/./app/team/servicesteam.jsx",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
       ],
       "async": false
     }
@@ -409,11 +409,11 @@
     "Y:\\Post\\Safari\\app\\booking\\page": [
       "static/css/app/booking/page.css"
     ],
-    "Y:\\Post\\Safari\\app\\team\\page": [
-      "static/css/app/team/page.css"
-    ],
     "Y:\\Post\\Safari\\app\\about\\page": [
       "static/css/app/about/page.css"
+    ],
+    "Y:\\Post\\Safari\\app\\team\\page": [
+      "static/css/app/team/page.css"
     ]
   }
 }
