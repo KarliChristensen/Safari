@@ -5,6 +5,7 @@ const footerOne = {
     title_2: 'Other Pages',
     widgetMenus: [
         {link:'/about',title:'About Us'},
+        {link:'/team',title:'Team'},
         {link:'/booking',title:'Booking'},
     ],
     title_3: 'Gallery',

@@ -57,23 +57,32 @@ export default function HeaderOne({ variant }) {
                   className="mobile__menu"
                   style={{ display: `${mobileToggle ? "block" : "none"}` }}
                 >
+                  <li>
+                    <Link href="/about">About</Link>
+                  </li>
+                  <li>
+                    <Link href="/team">Team</Link>
+                  </li>
+                  <li>
+                    <Link href="/trip-details">Trip Details</Link>
+                  </li>
                   {/*                   <li>
                     <Link href="/">Home</Link>
                   </li> */}
-                  <li className="menu-item-has-children">
+                  {/*                   <li className="menu-item-has-children">
                     <a href="#">Pages</a>
                     <DropDown />
                     <ul className="sub-menu">
                       <Page />
                     </ul>
-                  </li>
-                  <li className="menu-item-has-children">
+                  </li> */}
+                  {/*                   <li className="menu-item-has-children">
                     <a href="#">Room</a>
                     <DropDown />
                     <ul className="sub-menu">
                       <Room />
                     </ul>
-                  </li>
+                  </li> */}
                   {/*                   <li className="menu-item-has-children">
                     <a href="#">Blog</a>
                     <DropDown />
@@ -81,16 +90,16 @@ export default function HeaderOne({ variant }) {
                       <Blog />
                     </ul>
                   </li> */}
-                  <li>
+{/*                   <li>
                     <Link href="/booking">Booking</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
             <div className="header__area-menubar-right-box">
               <div className="header__area-menubar-right-box-btn">
                 <Link className="theme-btn" href="/booking">
-                  Book Now<i className="fal fa-long-arrow-right"></i>
+                  Booking<i className="fal fa-long-arrow-right"></i>
                 </Link>
               </div>
             </div>
