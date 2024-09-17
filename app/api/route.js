@@ -3,8 +3,17 @@ import nodemailer from "nodemailer";
 export async function POST(request) {
   console.log("sendMail function triggered");
   try {
-    const { name, email, phone, victoria, message, khwai, savuti, chobe } =
-      await request.json();
+    const {
+      name,
+      email,
+      phone,
+      victoria,
+      guidedw,
+      message,
+      khwai,
+      savuti,
+      chobe,
+    } = await request.json();
 
     const transporter = nodemailer.createTransport({
       host: "smtp.zoho.eu",
@@ -19,18 +28,23 @@ export async function POST(request) {
       from: process.env.ZOHO_EMAIL,
       to: "booking@shangamera.com",
       subject: `Booking from ${name}`,
-      text: `
-        New booking via website form.
-
-        From ${name}
-        Email: ${email}
-        Phone: ${phone}
-
-        Total amount of people wishing to go: Okavango Delta ${khwai}, Savuti: ${savuti}, and Chobe: ${chobe}.
-
-        Optional add-on Victoria Falls: ${victoria ? 'Yes' : 'No'},
-
-        Further information: ${message}
+      html: `
+        <p>New booking via website form.</p>
+        <p>From: <strong>${name}</strong></p>
+        <p>Email: <strong>${email}</strong></p>
+        <p>Phone: <strong>${phone}</strong></p>
+        <p>People wishing to travel:</p>
+        <ul>
+          <li>Okavango Delta: <strong>${khwai}</strong> with the optional game walk: ${
+        guidedw ? "<strong>included</strong>" : "<strong>not included</strong>"
+      }</li>
+          <li>Savuti: <strong>${savuti}</strong></li>
+          <li>Chobe: <strong>${chobe}</strong></li>
+        </ul>
+        <p>Optional add-on Victoria Falls: <strong>${
+          victoria ? "Yes" : "No"
+        }</strong></p>
+        <p>Further information: ${message}</p>
       `,
     };
 

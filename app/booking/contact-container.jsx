@@ -51,6 +51,7 @@ const Contactcontainer = () => {
         phone: "",
         subject: "",
         khwai: "",
+        guidedw: false,
         victoria: false,
         savuti: "",
         chobe: "",
@@ -58,13 +59,17 @@ const Contactcontainer = () => {
       });
 
       // Show success message in modal
-      setModalMessage("Email recieved, we'll get back to you as soon as possible!");
+      setModalMessage(
+        "Email recieved, we'll get back to you as soon as possible!"
+      );
       setIsModalOpen(true);
     } catch (error) {
       setResult({ error: "Failed to send email" });
 
       // Show error message in modal
-      setModalMessage("Something went wrong, try again or reach out to us at Support@shangamera.com.");
+      setModalMessage(
+        "Something went wrong, try again or reach out to us at Support@shangamera.com."
+      );
       setIsModalOpen(true);
     } finally {
       setLoading(false);
@@ -201,6 +206,32 @@ const Contactcontainer = () => {
                         </span>
                       </div>
                     </div>
+                    <div className="col-sm-12 mb-30">
+                      <div className="relative">
+                        <input
+                          style={{
+                            marginLeft: "20px",
+                            accentColor: "#B89146",
+                            outlineColor: "#B89146",
+                          }}
+                          type="checkbox"
+                          id="guidedwalks"
+                          checked={formData.guidedwalks}
+                          onChange={handleChange}
+                          name="guidedw"
+                        />
+                        <label
+                          style={{
+                            color: "gray",
+                            fontSize: "14px",
+                            marginLeft: "12px",
+                          }}
+                          htmlFor="guidedwalks"
+                        >
+                          Optional: Guided walks
+                        </label>
+                      </div>
+                    </div>
 
                     <div className="col-sm-12 mb-30">
                       <div className="contact__area-form-item">
@@ -250,7 +281,7 @@ const Contactcontainer = () => {
                           }}
                           htmlFor="victoriafalls"
                         >
-                          Optional Add-on: Victoria Falls
+                          Optional add-on: Victoria Falls
                         </label>
                       </div>
                     </div>
