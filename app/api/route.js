@@ -20,17 +20,15 @@ export async function POST(request) {
       to: "booking@shangamera.com",
       subject: `Booking from ${name}`,
       text: `
-        New booking via website form
+        New booking via website form.
 
         From ${name}
-
         Email: ${email}
-
         Phone: ${phone}
 
         Total amount of people wishing to go: Okavango Delta ${khwai}, Savuti: ${savuti}, and Chobe: ${chobe}.
 
-        Optional add-on: ${victoria},
+        Optional add-on Victoria Falls: ${victoria ? 'Yes' : 'No'},
 
         Further information: ${message}
       `,
