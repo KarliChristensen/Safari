@@ -1,5 +1,7 @@
+import Link from "next/link";
 import Social from "../socials/page";
 import { useState } from "react";
+import Modal from "./modal";
 
 const Contactcontainer = () => {
   const [result, setResult] = useState({});
@@ -10,30 +12,38 @@ const Contactcontainer = () => {
     phone: "",
     subject: "",
     khwai: "",
-    victoria: "",
+    victoria: false,
     savuti: "",
     chobe: "",
     message: "",
   });
 
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to manage modal visibility
+  const [modalMessage, setModalMessage] = useState(""); // State to store modal message
+
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    const { name, type, checked, value } = e.target;
+    if (type === "checkbox") {
+      setFormData({ ...formData, [name]: checked });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
   };
 
   const sendEMail = async (e) => {
     e.preventDefault(); // Prevent form submission
     setLoading(true);
+
     try {
       const response = await fetch("/api/", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
+
       const data = await response.json();
       setResult(data);
+
       // Clear the form fields after successful submission
       setFormData({
         name: "",
@@ -41,13 +51,21 @@ const Contactcontainer = () => {
         phone: "",
         subject: "",
         khwai: "",
-        victoria: "",
+        victoria: false,
         savuti: "",
         chobe: "",
         message: "",
       });
+
+      // Show success message in modal
+      setModalMessage("Email recieved, we'll get back to you as soon as possible!");
+      setIsModalOpen(true);
     } catch (error) {
       setResult({ error: "Failed to send email" });
+
+      // Show error message in modal
+      setModalMessage("Something went wrong, try again or reach out to us at Support@shangamera.com.");
+      setIsModalOpen(true);
     } finally {
       setLoading(false);
     }
@@ -110,7 +128,20 @@ const Contactcontainer = () => {
             </div>
             <div className="col-xl-7 col-lg-7">
               <div className="contact__area-form">
-                <h3 className="mb-35">Begin your booking</h3>
+                <h3 className="mb-25">Begin your booking</h3>
+                <p className="">
+                  It is recommended that you fully familiarize yourself with the
+                  experience we offer, and what each option entails. You can
+                  find out more about the full Botswana experience{" "}
+                  <Link
+                    href="/trip-details"
+                    style={{
+                      color: "#B89146",
+                    }}
+                  >
+                    here.
+                  </Link>
+                </p>
                 <form onSubmit={sendEMail}>
                   <div className="row">
                     <div className="col-sm-6 mb-30">
@@ -207,7 +238,7 @@ const Contactcontainer = () => {
                           }}
                           type="checkbox"
                           id="victoriafalls"
-                          value={formData.victoria}
+                          checked={formData.victoria}
                           onChange={handleChange}
                           name="victoria"
                         />
@@ -236,13 +267,18 @@ const Contactcontainer = () => {
                     </div>
                     <div className="col-lg-12">
                       <div className="contact__area-form-item">
-                        <button className="theme-btn" type="submit">
+                        <button type="submit" disabled={loading}>
                           Submit Now<i className="fal fa-long-arrow-right"></i>
                         </button>
                       </div>
                     </div>
                   </div>
                 </form>
+                <Modal
+                  isOpen={isModalOpen}
+                  onClose={() => setIsModalOpen(false)}
+                  message={modalMessage}
+                />
               </div>
             </div>
           </div>

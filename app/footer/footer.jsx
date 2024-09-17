@@ -45,8 +45,7 @@ export default function Footer() {
                 </div>
                 {/* Company description */}
                 <p>
-                  Phasellus nisi sapien, rutrum placerat sapien eu, rhoncus
-                  tempus
+                  Discover Botswana
                 </p>
                 <div className="footer__area-widget-about-social">
                   <Social />
@@ -91,22 +90,6 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-7 col-sm-8">
-            <div className="footer__area-widget">
-              {/* Subscription form */}
-              <h5>Subscribe</h5>
-              <div className="footer__area-widget-subscribe">
-                <form action="#">
-                  {/* Email input */}
-                  <input type="text" name="email" placeholder="Email Address" />
-                  {/* Submit button */}
-                  <button type="submit">
-                    <i className="fal fa-hand-pointer"></i>
-                  </button>
-                </form>
               </div>
             </div>
           </div>
