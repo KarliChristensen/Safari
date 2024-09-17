@@ -12,7 +12,7 @@ const Contact = () => {
     <>
       <SEO pageTitle="Booking" />
         <HeaderOne />
-        <BreadCrumb title="Booking" innerTitle="Booking" bgImage="/img/banner/page-banner-5.jpg"/>
+        <BreadCrumb title="Booking" innerTitle="Booking" bgImage="/img/unsplashed/geranimo-PuhnmljHXJ8-unsplash.jpg"/>
         <Contactcontainer />
         <Footer />
         <ScrollToTopButton />
