@@ -14,7 +14,7 @@ const BannerContent = () => {
             width={500}
             height={30}
           />
-          <div className="banner__area-title-video">
+          {/*           <div className="banner__area-title-video">
             <div className="video__play">
               <React.Fragment>
                 <ModalVideo
@@ -28,7 +28,7 @@ const BannerContent = () => {
                 </span>
               </React.Fragment>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
