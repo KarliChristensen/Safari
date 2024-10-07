@@ -15,17 +15,17 @@ export default function Home() {
   return (
     <>
       <SEO pageTitle="Home" />
-        <HeaderOne />
-        <Banner />
-        <Accommodations />
-        <Deluxe />
-        <Videoarea />
-        <Services />
-        <Feature />
-        <Testimonial />
-        {/* <Blog /> */}
-        <Footer />
-        <ScrollToTopButton />
+      <HeaderOne />
+      <Banner />
+      <Accommodations />
+      {/* <Deluxe /> */}
+      <Videoarea />
+      {/* <Services /> */}
+      {/*  <Feature /> */}
+      {/* <Testimonial /> */}
+      {/* <Blog /> */}
+      <Footer />
+      <ScrollToTopButton />
     </>
   );
 }

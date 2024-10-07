@@ -12,15 +12,19 @@ import SEO from "@/components/seo";
 const About = () => {
   return (
     <>
-      <SEO pageTitle='About Us' />
-        <HeaderOne />
-        <BreadCrumb title="About Us" innerTitle="About Us" bgImage="/img/banner/page-banner-1.jpg"/>
-        <Offerarea />
-        <Servicestwo />
-        <Gallery />
-        <Team />
-        <Footer />
-        <ScrollToTopButton />
+      <SEO pageTitle="About Us" />
+      <HeaderOne />
+      <BreadCrumb
+        title="About Us"
+        innerTitle="About Us"
+        bgImage="/img/Pictures/jose-mizrahi-mGmo5XEsw4M-unsplash.jpg"
+      />
+      <Offerarea />
+      <Servicestwo />
+      {/*       <Gallery /> */}
+      {/*     <Team /> */}
+      <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

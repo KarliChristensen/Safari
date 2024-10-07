@@ -60,9 +60,9 @@ export default function HeaderOne({ variant }) {
                   <li>
                     <Link href="/about">About</Link>
                   </li>
-                  <li>
+                  {/*            <li>
                     <Link href="/team">Team</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/trip-details">Trip Details</Link>
                   </li>
@@ -90,7 +90,7 @@ export default function HeaderOne({ variant }) {
                       <Blog />
                     </ul>
                   </li> */}
-{/*                   <li>
+                  {/*                   <li>
                     <Link href="/booking">Booking</Link>
                   </li> */}
                 </ul>
