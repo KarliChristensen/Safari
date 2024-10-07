@@ -44,12 +44,10 @@ export default function Footer() {
                   </Link>
                 </div>
                 {/* Company description */}
-                <p>
-                  Discover Botswana
-                </p>
-                <div className="footer__area-widget-about-social">
+                <p>Discover Botswana</p>
+                {/*               <div className="footer__area-widget-about-social">
                   <Social />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
