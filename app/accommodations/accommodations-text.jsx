@@ -11,7 +11,7 @@ const Accommodationstext = () => {
           the map. They are looking for a memorable experience and to make new
           friends along the way.
         </p>
-        <Link className="theme-btn" href="/about">
+        <Link className="theme-btn" href="/trip-details">
           Read More <i className="fal fa-long-arrow-right"></i>
         </Link>
       </div>

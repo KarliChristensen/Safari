@@ -11,7 +11,7 @@ export default function Videoarea() {
           {/* Title */}
           <div className="col-xxl-6 col-xl-7 col-lg-8">
             <div className="video__area-title">
-              <h2>Book hotel rooms, get deals & book flights online.</h2>
+              <h2>Explore the Okavango River Delta. <br></br>Explore Botswana</h2>
             </div>
           </div>
           <div className="col-xxl-6 col-xl-5 col-lg-4">

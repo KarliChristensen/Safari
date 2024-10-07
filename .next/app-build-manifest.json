@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/trip-details/page": [
+    "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/trip-details/page.css",
-      "static/chunks/app/trip-details/page.js"
+      "static/css/app/about/page.css",
+      "static/chunks/app/about/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -12,17 +12,16 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/about/page": [
+    "/trip-details/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/about/page.css",
-      "static/chunks/app/about/page.js"
+      "static/css/app/trip-details/page.css",
+      "static/chunks/app/trip-details/page.js"
     ],
-    "/team/page": [
+    "/[not-found]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/team/page.css",
-      "static/chunks/app/team/page.js"
+      "static/chunks/app/[not-found]/page.js"
     ],
     "/booking/page": [
       "static/chunks/webpack.js",

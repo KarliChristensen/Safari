@@ -1,13 +1,14 @@
 "use client";
 import Image from "next/image";
-import CarParking from "../../public/img/icon/car-parking.png";
+import CarParking from "../../public/img/icon/safari.png";
 import Locaion1 from "../../public/img/icon/location-1.png";
-import SwimmingPool from "../../public/img/icon/swimming-pool.png";
+import Cano from "../../public/img/icon/cano.png";
+import SwimmingPool from "../../public/img/icon/boat.png";
 
 const Servicestwo = () => {
   return (
     <>
-      <div className="services__two">
+      <div className="services__two mb-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
@@ -17,10 +18,9 @@ const Servicestwo = () => {
                   <Image alt="" layout="responsive" src={Locaion1} />
                 </div>
                 <div className="services__two-item-content">
-                  <h4>Room Cleaning</h4>
+                  <h4>Journey</h4>
                   <p>
-                    Proin massa augue, lacinia at blandit ac, Fringilla
-                    scelerisque tortor. Mauris
+                  Explore diverse landscapes as you journey through the Okavango Delta.
                   </p>
                 </div>
               </div>
@@ -32,10 +32,9 @@ const Servicestwo = () => {
                   <Image alt="" layout="responsive" src={CarParking} />
                 </div>
                 <div className="services__two-item-content">
-                  <h4>Car Parking</h4>
+                  <h4>Safari</h4>
                   <p>
-                    Proin massa augue, lacinia at blandit ac, Fringilla
-                    scelerisque tortor. Mauris
+                    Explore the Khwai Okavango Delta, Savuti and the Chobe National Park.
                   </p>
                 </div>
               </div>
@@ -47,10 +46,9 @@ const Servicestwo = () => {
                   <Image alt="" layout="responsive" src={SwimmingPool} />
                 </div>
                 <div className="services__two-item-content">
-                  <h4>Swimming pool</h4>
+                  <h4>Boat Cruise</h4>
                   <p>
-                    Proin massa augue, lacinia at blandit ac, Fringilla
-                    scelerisque tortor. Mauris
+                    Add a Chobe River boat cruise to your experience and see the sunset while afloat.
                   </p>
                 </div>
               </div>
@@ -59,13 +57,12 @@ const Servicestwo = () => {
               <div className="services__two-item">
                 <span>04</span>
                 <div className="services__two-item-icon">
-                  <Image alt="" layout="responsive" src={Locaion1} />
+                  <Image alt="" layout="responsive" src={Cano} />
                 </div>
                 <div className="services__two-item-content">
-                  <h4>PickUp & Drop</h4>
+                  <h4>Mokoro Trips</h4>
                   <p>
-                    Proin massa augue, lacinia at blandit ac, Fringilla
-                    scelerisque tortor. Mauris
+                  Experience tranquil mokoro trips through the stunning waterways of the delta.
                   </p>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Offers from "../../public/img/features/offers.jpg";
+import Offers from "../../public/img/Pictures/rod-long-VAwxk8MJ3Ks-unsplash.jpg";
 
 const Offerarea = () => {
   return (
@@ -10,15 +10,17 @@ const Offerarea = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="offers__area-title">
-                <span className="subtitle__one">Company Offers</span>
-                <h2>Book now and save up to 35% On hotel rooms</h2>
+                <span className="subtitle__one">Safari Tour</span>
+                <h2>
+                  Discover Botswana <br /> Tour the Okavango River Delta
+                </h2>
                 <p>
-                  hasellus nisi sapien, rutrum placerat sapien eu, rhoncus
-                  tempus felis. Nulla non pulvinar enim, vel viverra nunc.
-                  Integer condimentum vulputate justo. Morbi rhoncus elit in
-                  tellus viverra, vel fermentum orci dictum. Vestibulum non nisi
-                  commodo, tincidunt elit non, consectetur tellus. Fusce in
-                  commodo velit. In dapibus dui vitae tortor ullamcorper mollis.
+                  Explore the breathtaking beauty of Botswana's Okavango River
+                  Delta, a UNESCO World Heritage site. This unique ecosystem is
+                  home to diverse wildlife and stunning landscapes, offering
+                  unforgettable experiences for nature lovers and adventure
+                  seekers alike. From thrilling safaris to serene boat rides,
+                  discover the magic of this vibrant region.
                 </p>
               </div>
             </div>

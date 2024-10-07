@@ -2,6 +2,8 @@ import Link from "next/link";
 import Social from "../socials/page";
 import { useState } from "react";
 import Modal from "./modal";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/plain.css";
 
 const Contactcontainer = () => {
   const [result, setResult] = useState({});
@@ -176,15 +178,22 @@ const Contactcontainer = () => {
                       </div>
                     </div>
                     <div className="col-sm-6 mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-phone-alt"></i>
-                        <input
-                          type="text"
-                          name="phone"
-                          placeholder="Phone"
+                      <div className="col-span-1 sm:col-span-2">
+                        <PhoneInput
+                        placeholder="Phone Number"
+                          enableSearch={true}
+                          countryCodeEditable={false}
+                          searchStyle={{ height: "40px" }}
+                          inputStyle={{
+                            width: "100%",
+                            height: "60px",
+                            fontFamily: "Lato, sans-serif",
+                          }}
+                          containerStyle={{ height: "60px" }}
                           value={formData.phone}
-                          onChange={handleChange}
-                          required
+                          onChange={(phone) =>
+                            setFormData({ ...formData, phone })
+                          }
                         />
                       </div>
                     </div>
@@ -207,6 +216,14 @@ const Contactcontainer = () => {
                       </div>
                     </div>
                     <div className="col-sm-12 mb-30">
+                      <h6
+                        style={{
+                          marginLeft: "12px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Optional add-ons to your Khwai Okavango stay
+                      </h6>
                       <div className="relative">
                         <input
                           style={{
@@ -228,7 +245,7 @@ const Contactcontainer = () => {
                           }}
                           htmlFor="guidedwalks"
                         >
-                          Optional: Guided walks
+                          Guided walks
                         </label>
                       </div>
                     </div>
@@ -241,6 +258,7 @@ const Contactcontainer = () => {
                           name="savuti"
                           placeholder="Savuti - People travelling"
                           value={formData.savuti}
+                          min={0}
                           onChange={handleChange}
                           required
                         />
@@ -254,12 +272,21 @@ const Contactcontainer = () => {
                           name="chobe"
                           placeholder="Chobe - People travelling"
                           value={formData.chobe}
+                          min={0}
                           onChange={handleChange}
                           required
                         />
                       </div>
                     </div>
                     <div className="col-sm-12 mb-30">
+                      <h6
+                        style={{
+                          marginLeft: "12px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Optional add-ons to your Chobe stay
+                      </h6>
                       <div className="relative">
                         <input
                           style={{
@@ -281,7 +308,7 @@ const Contactcontainer = () => {
                           }}
                           htmlFor="victoriafalls"
                         >
-                          Optional add-on: Victoria Falls
+                          Victoria Falls
                         </label>
                       </div>
                     </div>
