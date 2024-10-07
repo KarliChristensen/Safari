@@ -1,5 +1,5 @@
-import hotel1 from "@/public/img/hotel/hotel-1.jpg";
-import hotel2 from "@/public/img/hotel/hotel-2.jpg";
+import hotel1 from "@/public/img/Pictures/felix-m-dorn-NRQZ2EIzF2w-unsplash.jpg";
+import hotel2 from "@/public/img/Pictures/datingscout-EsoSmU_qS4E-unsplash.jpg";
 import Image from "next/image";
 
 const Accommodationsimg = () => {
