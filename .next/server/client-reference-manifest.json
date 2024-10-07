@@ -40,14 +40,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/about/page.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/about/page.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/layout.jsx": {
       "*": {
         "id": "(sc_client)/./app/layout.jsx",
@@ -56,33 +48,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/trip-details/page.jsx": {
+    "(app-client)/./app/videoarea/videoarea.jsx": {
       "*": {
-        "id": "(sc_client)/./app/trip-details/page.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image-component.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/header/HeaderOne.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/header/HeaderOne.jsx",
+        "id": "(sc_client)/./app/videoarea/videoarea.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -96,9 +64,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/booking/page.jsx": {
+    "(app-client)/./app/banner/banner.jsx": {
       "*": {
-        "id": "(sc_client)/./app/booking/page.jsx",
+        "id": "(sc_client)/./app/banner/banner.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -107,14 +75,6 @@
     "(app-client)/./app/accommodations/accommodations.jsx": {
       "*": {
         "id": "(sc_client)/./app/accommodations/accommodations.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/banner/banner.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/banner/banner.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -136,14 +96,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/scroll-to-top/scrollToTop.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/scroll-to-top/scrollToTop.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/testimonial/testimonial.jsx": {
       "*": {
         "id": "(sc_client)/./app/testimonial/testimonial.jsx",
@@ -152,9 +104,33 @@
         "async": false
       }
     },
-    "(app-client)/./app/videoarea/videoarea.jsx": {
+    "(app-client)/./app/header/HeaderOne.jsx": {
       "*": {
-        "id": "(sc_client)/./app/videoarea/videoarea.jsx",
+        "id": "(sc_client)/./app/header/HeaderOne.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/scroll-to-top/scrollToTop.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/scroll-to-top/scrollToTop.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -243,14 +219,6 @@
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\about\\page.jsx": {
-      "id": "(app-client)/./app/about/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
     "Y:\\Post\\Safari\\app\\layout.jsx": {
       "id": "(app-client)/./app/layout.jsx",
       "name": "*",
@@ -259,48 +227,8 @@
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\trip-details\\page.jsx": {
-      "id": "(app-client)/./app/trip-details/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/trip-details/page:static/chunks/app/trip-details/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\node_modules\\next\\dist\\client\\image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\node_modules\\next\\dist\\esm\\client\\image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\header\\HeaderOne.jsx": {
-      "id": "(app-client)/./app/header/HeaderOne.jsx",
+    "Y:\\Post\\Safari\\app\\videoarea\\videoarea.jsx": {
+      "id": "(app-client)/./app/videoarea/videoarea.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -315,24 +243,16 @@
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\booking\\page.jsx": {
-      "id": "(app-client)/./app/booking/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/booking/page:static/chunks/app/booking/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\accommodations\\accommodations.jsx": {
-      "id": "(app-client)/./app/accommodations/accommodations.jsx",
+    "Y:\\Post\\Safari\\app\\banner\\banner.jsx": {
+      "id": "(app-client)/./app/banner/banner.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\banner\\banner.jsx": {
-      "id": "(app-client)/./app/banner/banner.jsx",
+    "Y:\\Post\\Safari\\app\\accommodations\\accommodations.jsx": {
+      "id": "(app-client)/./app/accommodations/accommodations.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -355,14 +275,6 @@
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\scroll-to-top\\scrollToTop.jsx": {
-      "id": "(app-client)/./app/scroll-to-top/scrollToTop.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "Y:\\Post\\Safari\\app\\testimonial\\testimonial.jsx": {
       "id": "(app-client)/./app/testimonial/testimonial.jsx",
       "name": "*",
@@ -371,8 +283,48 @@
       ],
       "async": false
     },
-    "Y:\\Post\\Safari\\app\\videoarea\\videoarea.jsx": {
-      "id": "(app-client)/./app/videoarea/videoarea.jsx",
+    "Y:\\Post\\Safari\\app\\header\\HeaderOne.jsx": {
+      "id": "(app-client)/./app/header/HeaderOne.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\node_modules\\next\\dist\\client\\image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\node_modules\\next\\dist\\esm\\client\\image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "Y:\\Post\\Safari\\app\\scroll-to-top\\scrollToTop.jsx": {
+      "id": "(app-client)/./app/scroll-to-top/scrollToTop.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -381,18 +333,8 @@
     }
   },
   "entryCSSFiles": {
-    "Y:\\Post\\Safari\\app\\about\\page": [
-      "static/css/app/about/page.css"
-    ],
     "Y:\\Post\\Safari\\app\\layout": [
       "static/css/app/layout.css"
-    ],
-    "Y:\\Post\\Safari\\app\\trip-details\\page": [
-      "static/css/app/trip-details/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\[not-found]\\page": [],
-    "Y:\\Post\\Safari\\app\\booking\\page": [
-      "static/css/app/booking/page.css"
     ],
     "Y:\\Post\\Safari\\app\\page": [
       "static/css/app/page.css"
