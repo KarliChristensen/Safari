@@ -1,24 +1,23 @@
 import Link from "next/link";
 
-const Social = () => {
+const Social = ({ facebook, linkedin }) => {
   return (
     <>
       <ul>
-        <li>
-          <Link href="https://www.facebook.com" target="_blank">
-            <i className="fab fa-facebook-f"></i>
-          </Link>
-        </li>
-        <li>
-          <Link href="https://twitter.com" target="_blank">
-            <i className="fab fa-twitter"></i>
-          </Link>
-        </li>
-        <li>
-          <Link href="https://www.linkedin.com" target="_blank">
-            <i className="fab fa-linkedin-in"></i>
-          </Link>
-        </li>
+        {facebook && (
+          <li>
+            <Link href={facebook} target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-facebook-f"></i>
+            </Link>
+          </li>
+        )}
+        {linkedin && (
+          <li>
+            <Link href={linkedin} target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin-in"></i>
+            </Link>
+          </li>
+        )}
       </ul>
     </>
   );
