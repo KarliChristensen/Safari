@@ -1,7 +1,3 @@
 {
-  "/team/page": "app/team/page.js",
-  "/about/page": "app/about/page.js",
-  "/[not-found]/page": "app/[not-found]/page.js",
-  "/trip-details/page": "app/trip-details/page.js",
-  "/booking/page": "app/booking/page.js"
+  "/team/page": "app/team/page.js"
 }
