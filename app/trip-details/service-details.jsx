@@ -15,13 +15,6 @@ const faqData = {
       title: "What are your prices?",
       des: "Our tours are priced at 470 USD per person, per night. Therefore, the 5-day trip through Khwai Okavango totals 1880 USD per person. The full experience, which includes 2 nights in Savuti Private Reserve and 2 nights in Chobe National Park, amounts to 3760 USD per person.",
     },
-    {
-      id: "collapseThreePage",
-      class: "icon page collapsed",
-      class2: "faq__area-item-body collapse",
-      title: "Do hotels charge your card before you check ?",
-      des: "Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in.",
-    },
   ],
 };
 const { faqOne } = faqData;

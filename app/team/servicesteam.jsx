@@ -19,7 +19,10 @@ const Servicesteam = () => {
                       <h5>{item.name}</h5>
                       <span>{item.status}</span>
                       <div className="services__team-item-image-content-social">
-                        <Social />
+                        <Social
+                          facebook={item.facebook}
+                          linkedin={item.linkedin}
+                        />
                       </div>
                     </div>
                   </div>

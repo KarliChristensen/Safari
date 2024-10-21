@@ -18,13 +18,6 @@ const faqData = {
       title: "What documents are needed for hotel booking ?",
       des: "Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in.",
     },
-    {
-      id: "collapseThreePage",
-      class: "icon page collapsed",
-      class2: "faq__area-item-body collapse",
-      title: "Do hotels charge your card before you check ?",
-      des: "Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in.",
-    },
   ],
 };
 const { faqOne } = faqData;

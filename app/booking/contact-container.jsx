@@ -100,7 +100,7 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Phone</span>
                     <h6>
-                      <a href="tel:+123(458)896895">+123 ( 458 ) 896 895</a>
+                      <a href="tel:+26775979058">+267 75 979 058</a>
                     </h6>
                   </div>
                 </div>
@@ -111,8 +111,8 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Email</span>
                     <h6>
-                      <a href="mailto:support@gamil.com">
-                        Support@shangamera.com
+                      <a href="mailto:info@shangamera.com">
+                        info@shangamera.com
                       </a>
                     </h6>
                   </div>
