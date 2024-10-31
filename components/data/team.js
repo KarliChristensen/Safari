@@ -4,7 +4,7 @@ import team2 from "@/public/img/team/team-7.jpg";
 import team3 from "@/public/img/team/Marianne.jpg";
 import team4 from "@/public/img/team/team-9.jpg";
 import team5 from "@/public/img/team/team-10.jpg";
-import Placeholder from "@/public/img/team/placeholder.jpg";
+import placeholder from "@/public/img/team/Placeholder.jpg";
 
 const teams = [
   {
@@ -18,7 +18,7 @@ const teams = [
   {
     name: "Simon Tshekonyane",
     status: "Director",
-    img: Placeholder,
+    img: placeholder,
     facebook: "",
     linkedin: "",
     mail: "simon@shangamera.com",
