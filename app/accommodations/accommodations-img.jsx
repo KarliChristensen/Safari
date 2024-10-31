@@ -7,9 +7,9 @@ const Accommodationsimg = () => {
     <div className="col-xl-7 col-lg-6">
       <div className="accommodations__area-right">
         <div className="accommodations__area-right-image">
-          <Image src={hotel1} alt="" width={500} height={350} />
+          <Image src={hotel2} alt="" width={500} height={350} />
           <div className="accommodations__area-right-image-two">
-            <Image src={hotel2} alt="" width={350} height={300} />
+            <Image src={hotel1} alt="" width={350} height={300} />
           </div>
         </div>
       </div>

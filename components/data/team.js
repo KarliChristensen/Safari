@@ -1,24 +1,37 @@
 import team6 from "@/public/img/team/team-10.jpg";
-import team1 from "@/public/img/team/team-6.jpg";
+import team1 from "@/public/img/team/Jon.jpg";
 import team2 from "@/public/img/team/team-7.jpg";
-import team3 from "@/public/img/team/team-8.jpg";
+import team3 from "@/public/img/team/Marianne.jpg";
 import team4 from "@/public/img/team/team-9.jpg";
 import team5 from "@/public/img/team/team-10.jpg";
+import Placeholder from "@/public/img/team/placeholder.jpg";
 
 const teams = [
   {
     name: "Jon Jacobson",
     status: "Owner",
     img: team1,
-    facebook: "https://www.facebook.com/jon.jacobson.526",
     linkedin: "https://www.linkedin.com/in/jonjacobsonomnisient/",
+    mail: "jon@shangamera.com",
+    telephone: "+27823733664",
   },
   {
     name: "Simon Tshekonyane",
-    status: "Game Ranger",
-    img: team2,
-    facebook: "https://www.facebook.com/",
+    status: "Director",
+    img: Placeholder,
+    facebook: "",
     linkedin: "",
+    mail: "simon@shangamera.com",
+    telephone: "+26775979058",
+  },
+  {
+    name: "Marianne Lancefield",
+    status: "Marketing",
+    img: team3,
+    facebook: "",
+    linkedin: "https://www.linkedin.com/in/marianne-lancefield-819aa323/",
+    mail: "marianne@shangamera.com",
+    telephone: "+27837671046",
   },
 ];
 

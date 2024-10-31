@@ -15,7 +15,7 @@ export default function Videoarea() {
           <div className="col-xxl-6 col-xl-7 col-lg-8">
             <div className="video__area-title">
               <h2>
-                Explore the Okavango River Delta. <br></br>Explore Botswana
+                Explore the Okavango River Delta. <br></br>Explore Botswana.
               </h2>
             </div>
           </div>

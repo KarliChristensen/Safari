@@ -13,7 +13,16 @@ const faqData = {
       class: "icon page",
       class2: "faq__area-item-body collapse show",
       title: "What are your prices?",
-      des: "Our tours are priced at 470 USD per person, per night. Therefore, the 5-day trip through Khwai Okavango totals 1880 USD per person. The full experience, which includes 2 nights in Savuti Private Reserve and 2 nights in Chobe National Park, amounts to 3760 USD per person.",
+      des: "Our tours (for 10+ pax) are currently priced at 400 USD per person, per night. Therefore, for example, a 5-day / 4-night trip through the Khwai Okavango totals 1600 USD per person. And, the full experience, which includes 4 nights in Khwai Okavango as well as 2 nights in the Savuti region and 2 nights in Chobe National Park, amounts to 3200 USD per person. Likewise, our tours (for under 10 pax) are currently priced at 470 USD per person, per night. Therefore, for example, the 5-day / 4-night trip through the Khwai Okavango totals 1880 USD per person. And, the full experience, which includes 4 nights in Khwai Okavango as well as 2 nights in the Savuti region and 2 nights in Chobe National Park, amounts to 3760 USD per person.",
+      des2: "PLEASE NOTE THAT OUR RATES VARY AND WILL ONLY BE CONFIRMED ON ENQUIRY.",
+    },
+    {
+      id: "collapseThreePage",
+      class: "icon page",
+      class2: "faq__area-item-body collapse show",
+      title: "What are your options?",
+      des: "The Khwai Okavango, Savuti and Chobe National Park packages as well as the Victoria Falls, Kalahari Desert and Birding Safaris may be booked together as a full experience or individually or in combinations as preferred.",
+
     },
   ],
 };
@@ -86,7 +95,7 @@ const TripDetails = () => {
                   With a healthy predator population, including frequent
                   sightings of lions, leopards, hyenas, and the endangered
                   African wild dog, Khwai is an exceptional chance to view a
-                  living, breathing predator prey relationship.
+                  living, breathing predator-prey relationship.
                 </span>
                 <p>
                   Khwai's varied habitats, from mopane forests to grasslands and
@@ -97,7 +106,7 @@ const TripDetails = () => {
                   (dugout canoe) safaris. The Khwai Delta offers a perfect blend
                   of luxury accommodations, diverse activities, and exceptional
                   wildlife viewing, making it a must-visit destination for any
-                  safari enthusiast exploring the Okavango Delta
+                  safari enthusiast exploring the Okavango Delta.
                 </p>
                 <div className="row align-items-center mt-35 mb-35">
                   <div className="col-xl-6 col-lg-12 xl-mb-30">
@@ -154,7 +163,7 @@ const TripDetails = () => {
                 <span>
                   The region hosts significant herds of elephants, buffalo, and
                   zebra, especially during the rainy season when thousands of
-                  zebras migrate to the lush grasses of the Savuti Marsh
+                  zebras migrate to the lush grasses of the Savuti Marsh.
                 </span>
                 <p>
                   Birdwatchers will find Savuti captivating, with abundant avian
@@ -302,6 +311,7 @@ const TripDetails = () => {
                       data-bs-parent="#accordionExamplePage"
                     >
                       <p>{data.des}</p>
+                      <p>{data.des2}</p>
                     </div>
                   </div>
                 ))}

@@ -8,7 +8,13 @@ export async function POST(request) {
       email,
       phone,
       victoria,
+      kalahari,
+      birds,
+      gamev,
       guidedw,
+      birdw,
+      cano,
+      boatc,
       message,
       khwai,
       savuti,
@@ -35,15 +41,23 @@ export async function POST(request) {
         <p>Phone: <strong>${phone}</strong></p>
         <p>People wishing to travel:</p>
         <ul>
-          <li>Okavango Delta: <strong>${khwai}</strong> with the optional game walk: ${
-        guidedw ? "<strong>included</strong>" : "<strong>not included</strong>"
-      }</li>
+          <li>Okavango Delta: <strong>${khwai}</strong>
           <li>Savuti: <strong>${savuti}</strong></li>
-          <li>Chobe: <strong>${chobe}</strong></li>
+          <li>Chobe: <strong>${chobe}</strong>
+          Victoria Falls  -  <strong>${victoria ? "Yes" : "No"}</strong>
+            </li>
+          <li>Kalahari Desert: <strong>${kalahari}</strong></li>
+          <li>Birdwatching Safari: <strong>${birds}</strong></li>
         </ul>
-        <p>Optional add-on Victoria Falls: <strong>${
-          victoria ? "Yes" : "No"
-        }</strong></p>
+        <p>Personal preferences: 
+        <ul>
+          <li>Game viewing - <strong>${gamev ? "Yes" : "No"}</strong></li>
+          <li>Guided walks - <strong>${guidedw ? "Yes" : "No"}</strong></li>
+          <li>Birdwatching - <strong>${birdw ? "Yes" : "No"}</strong></li>
+          <li>Mokoro - <strong>${cano ? "Yes" : "No"}</strong></li>
+          <li>Boatcruise - <strong>${boatc ? "Yes" : "No"}</strong></li>
+          </ul>
+        </p>
         <p>Further information: ${message}</p>
       `,
     };

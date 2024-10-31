@@ -60,15 +60,15 @@ export default function HeaderOne({ variant }) {
                   <li>
                     <Link href="/about">About</Link>
                   </li>
-                  {/*            <li>
+                  <li>
                     <Link href="/team">Team</Link>
-                  </li> */}
+                  </li>
                   <li>
                     <Link href="/trip-details">Trip Details</Link>
                   </li>
-                  {/*                   <li>
-                    <Link href="/">Home</Link>
-                  </li> */}
+                  <li>
+                    <Link href="/booking">Booking</Link>
+                  </li>
                   {/*                   <li className="menu-item-has-children">
                     <a href="#">Pages</a>
                     <DropDown />

@@ -22,6 +22,8 @@ const Servicesteam = () => {
                         <Social
                           facebook={item.facebook}
                           linkedin={item.linkedin}
+                          mail={item.mail}
+                          telephone={item.telephone}
                         />
                       </div>
                     </div>

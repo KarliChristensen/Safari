@@ -41,7 +41,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 									</div>
 									<div className="header__area-menubar-right-box-sidebar-popup-contact-item-content">
 										<span>Office Address</span>
-										<h6><Link href="https://www.google.com/maps">PV3M+X68 Welshpool United Kingdom</Link></h6>
+										<h6><Link href="https://www.google.com/maps">PO Box 834, Kasane, Republic of Botswana</Link></h6>
 									</div>
 								</div>
 							</div>

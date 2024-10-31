@@ -196,7 +196,7 @@ const Roomdetailscontainer = () => {
                           className={data.class2}
                           data-bs-parent="#accordionExamplePage"
                         >
-                          <p>{data.des}</p>
+                          <p>{data.des}<br></br><br></br>{data.des2}</p>
                         </div>
                       </div>
                     ))}

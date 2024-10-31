@@ -7,6 +7,7 @@ const footerOne = {
   widgetMenus: [
     { link: "/about", title: "About Us" },
     { link: "/team", title: "Team" },
+    { link: "/trip-details", title: "Trip Details" },
     { link: "/booking", title: "Booking" },
   ],
   title_3: "Gallery",
@@ -20,8 +21,8 @@ const footerOne = {
       icon: <i className="fal fal fa-envelope-open-text"></i>,
     },
     {
-      link: "tel:+45 93870055",
-      info: "(+45) 93870055",
+      link: "tel:(+27)837671046",
+      info: "(+27) 83 767 1046",
       icon: <i className="fal fa-phone-alt"></i>,
     },
   ],

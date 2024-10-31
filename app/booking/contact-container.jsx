@@ -15,6 +15,13 @@ const Contactcontainer = () => {
     subject: "",
     khwai: "",
     victoria: false,
+    kalahari: "",
+    birds: "",
+    gamev: false,
+    guidedw: false,
+    birdw: false,
+    cano: false,
+    boatc: false,
     savuti: "",
     chobe: "",
     message: "",
@@ -53,8 +60,14 @@ const Contactcontainer = () => {
         phone: "",
         subject: "",
         khwai: "",
-        guidedw: false,
         victoria: false,
+        kalahari: "",
+        birds: "",
+        gamev: false,
+        guidedw: false,
+        birdw: false,
+        cano: false,
+        boatc: false,
         savuti: "",
         chobe: "",
         message: "",
@@ -100,7 +113,7 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Phone</span>
                     <h6>
-                      <a href="tel:+26775979058">+267 75 979 058</a>
+                      <a href="tel:+27837671046">+27 83 767 1046</a>
                     </h6>
                   </div>
                 </div>
@@ -180,7 +193,7 @@ const Contactcontainer = () => {
                     <div className="col-sm-6 mb-30">
                       <div className="col-span-1 sm:col-span-2">
                         <PhoneInput
-                        placeholder="Phone Number"
+                          placeholder="Phone Number"
                           enableSearch={true}
                           countryCodeEditable={true}
                           searchStyle={{ height: "40px" }}
@@ -213,40 +226,6 @@ const Contactcontainer = () => {
                         <span className="collapse peer-invalid/khwai:visible mt-2 ml-5 text-xs text-gray-600 opacity-50 transition-all duration-300 ease-in-out">
                           Minimum 4 people required
                         </span>
-                      </div>
-                    </div>
-                    <div className="col-sm-12 mb-30">
-                      <h6
-                        style={{
-                          marginLeft: "12px",
-                          marginBottom: "10px",
-                        }}
-                      >
-                        Optional add-ons to your Khwai Okavango stay
-                      </h6>
-                      <div className="relative">
-                        <input
-                          style={{
-                            marginLeft: "20px",
-                            accentColor: "#B89146",
-                            outlineColor: "#B89146",
-                          }}
-                          type="checkbox"
-                          id="guidedwalks"
-                          checked={formData.guidedwalks}
-                          onChange={handleChange}
-                          name="guidedw"
-                        />
-                        <label
-                          style={{
-                            color: "gray",
-                            fontSize: "14px",
-                            marginLeft: "12px",
-                          }}
-                          htmlFor="guidedwalks"
-                        >
-                          Guided walks
-                        </label>
                       </div>
                     </div>
 
@@ -309,6 +288,185 @@ const Contactcontainer = () => {
                           htmlFor="victoriafalls"
                         >
                           Victoria Falls
+                        </label>
+                      </div>
+                    </div>
+                    <div className="col-sm-12 mb-30">
+                      <div className="contact__area-form-item">
+                        <i className="far fa-compass"></i>
+                        <input
+                          type="number"
+                          name="kalahari"
+                          className="peer/khwai invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-500"
+                          placeholder="Kalahari Desert – People travelling"
+                          value={formData.kalahari}
+                          onChange={handleChange}
+                          min={4}
+                          required
+                        />
+                        <span className="collapse peer-invalid/khwai:visible mt-2 ml-5 text-xs text-gray-600 opacity-50 transition-all duration-300 ease-in-out">
+                          Minimum 4 people required
+                        </span>
+                      </div>
+                    </div>
+                    <div className="col-sm-12 mb-30">
+                      <div className="contact__area-form-item mb-30">
+                        <i className="far fa-compass"></i>
+                        <input
+                          type="number"
+                          name="birds"
+                          className="peer/khwai invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-500"
+                          placeholder="Birdwatching Safari – People travelling"
+                          value={formData.birds}
+                          onChange={handleChange}
+                          min={4}
+                          required
+                        />
+                        <span className="collapse peer-invalid/khwai:visible mt-2 ml-5 text-xs text-gray-600 opacity-50 transition-all duration-300 ease-in-out">
+                          Minimum 4 people required
+                        </span>
+                      </div>
+                      <div className="col-sm-12 mb-30">
+                      <h6
+                        style={{
+                          marginLeft: "12px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Personalise your stay
+                      </h6>
+                      <div className="relative">
+                        <label
+                          style={{
+                            color: "gray",
+                            fontSize: "14px",
+                            marginLeft: "12px",
+                          }}
+                          htmlFor="victoriafalls"
+                        >
+                          So that we may get to know you better, please indicate which of the following activities you are interested in by ticking one or more of the options below:
+                        
+                        </label>
+                      </div>
+                    </div>
+                      <div className="relative">
+                        <input
+                          style={{
+                            marginLeft: "20px",
+                            accentColor: "#B89146",
+                            outlineColor: "#B89146",
+                          }}
+                          type="checkbox"
+                          id="gameviewing"
+                          checked={formData.gamev}
+                          onChange={handleChange}
+                          name="gamev"
+                        />
+                        <label
+                          style={{
+                            color: "gray",
+                            fontSize: "14px",
+                            marginLeft: "12px",
+                          }}
+                          htmlFor="gameviewing"
+                        >
+                          Game viewing
+                        </label>
+                      </div>
+                      <div className="relative">
+                        <input
+                          style={{
+                            marginLeft: "20px",
+                            accentColor: "#B89146",
+                            outlineColor: "#B89146",
+                          }}
+                          type="checkbox"
+                          id="guidedwalks"
+                          checked={formData.guidedw}
+                          onChange={handleChange}
+                          name="guidedw"
+                        />
+                        <label
+                          style={{
+                            color: "gray",
+                            fontSize: "14px",
+                            marginLeft: "12px",
+                          }}
+                          htmlFor="guidedwalks"
+                        >
+                          Guided walks
+                        </label>
+                      </div>
+                      <div className="relative">
+                        <input
+                          style={{
+                            marginLeft: "20px",
+                            accentColor: "#B89146",
+                            outlineColor: "#B89146",
+                          }}
+                          type="checkbox"
+                          id="birdwatching"
+                          checked={formData.birdw}
+                          onChange={handleChange}
+                          name="birdw"
+                        />
+                        <label
+                          style={{
+                            color: "gray",
+                            fontSize: "14px",
+                            marginLeft: "12px",
+                          }}
+                          htmlFor="birdwatching"
+                        >
+                          Birdwatching
+                        </label>
+                      </div>
+                      <div className="relative">
+                        <input
+                          style={{
+                            marginLeft: "20px",
+                            accentColor: "#B89146",
+                            outlineColor: "#B89146",
+                          }}
+                          type="checkbox"
+                          id="mokoro"
+                          checked={formData.cano}
+                          onChange={handleChange}
+                          name="cano"
+                        />
+                        <label
+                          style={{
+                            color: "gray",
+                            fontSize: "14px",
+                            marginLeft: "12px",
+                          }}
+                          htmlFor="mokoro"
+                        >
+                          Canoeing in dugouts ‘mokoro’
+                        </label>
+                      </div>
+                      <div className="relative">
+                        <input
+                          style={{
+                            marginLeft: "20px",
+                            accentColor: "#B89146",
+                            outlineColor: "#B89146",
+                          }}
+                          type="checkbox"
+                          id="boatcruise"
+                          checked={formData.boatc}
+                          onChange={handleChange}
+                          name="boatc"
+                        />
+                        <label
+                          style={{
+                            color: "gray",
+                            fontSize: "14px",
+                            marginLeft: "12px",
+                          }}
+                          htmlFor="boatcruise"
+                        >
+                          Boatcruise
                         </label>
                       </div>
                     </div>
