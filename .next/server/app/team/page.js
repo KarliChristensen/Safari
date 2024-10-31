@@ -2760,4 +2760,4 @@ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s 
 var __webpack_exports__ = (__webpack_exec__("(sc_server)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fteam%2Fpage&page=%2Fteam%2Fpage&appPaths=%2Fteam%2Fpage&pagePath=private-next-app-dir%2Fteam%2Fpage.jsx&appDir=Y%3A%5CPost%5CSafari%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=Y%3A%5CPost%5CSafari&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!"));
 module.exports = __webpack_exports__;
 
-}
+})();
