@@ -40,6 +40,14 @@
         "async": false
       }
     },
+    "(app-client)/./app/layout.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/layout.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image-component.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
@@ -123,30 +131,6 @@
     "(app-client)/./components/seo.jsx": {
       "*": {
         "id": "(sc_client)/./components/seo.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/layout.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/layout.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/booking/page.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/booking/page.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/team/servicesteam.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/team/servicesteam.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -235,11 +219,19 @@
       ],
       "async": false
     },
+    "Y:\\Post\\Safari\\app\\layout.jsx": {
+      "id": "(app-client)/./app/layout.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "Y:\\Post\\Safari\\node_modules\\next\\dist\\client\\image-component.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -247,7 +239,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -255,7 +247,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -263,7 +255,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -303,7 +295,7 @@
       "id": "(app-client)/./app/header/HeaderOne.jsx",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -311,7 +303,7 @@
       "id": "(app-client)/./app/scroll-to-top/scrollToTop.jsx",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -335,47 +327,17 @@
       "id": "(app-client)/./components/seo.jsx",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\layout.jsx": {
-      "id": "(app-client)/./app/layout.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\booking\\page.jsx": {
-      "id": "(app-client)/./app/booking/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/booking/page:static/chunks/app/booking/page.js"
-      ],
-      "async": false
-    },
-    "Y:\\Post\\Safari\\app\\team\\servicesteam.jsx": {
-      "id": "(app-client)/./app/team/servicesteam.jsx",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "Y:\\Post\\Safari\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "Y:\\Post\\Safari\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "Y:\\Post\\Safari\\app\\booking\\page": [
-      "static/css/app/booking/page.css"
-    ],
-    "Y:\\Post\\Safari\\app\\team\\page": [
-      "static/css/app/team/page.css"
+    "Y:\\Post\\Safari\\app\\page": [
+      "static/css/app/page.css"
     ]
   }
 }

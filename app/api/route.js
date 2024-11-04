@@ -55,7 +55,7 @@ export async function POST(request) {
           <li>Guided walks - <strong>${guidedw ? "Yes" : "No"}</strong></li>
           <li>Birdwatching - <strong>${birdw ? "Yes" : "No"}</strong></li>
           <li>Mokoro - <strong>${cano ? "Yes" : "No"}</strong></li>
-          <li>Boatcruise - <strong>${boatc ? "Yes" : "No"}</strong></li>
+          <li>Boat cruises - <strong>${boatc ? "Yes" : "No"}</strong></li>
           </ul>
         </p>
         <p>Further information: ${message}</p>

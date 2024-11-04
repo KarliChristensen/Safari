@@ -10,23 +10,32 @@ const faqData = {
     },
     {
       id: "collapseTwoPage",
-      class: "icon page",
-      class2: "faq__area-item-body collapse show",
+      class: "icon page collapsed",
+      class2: "faq__area-item-body collapse",
       title: "What are your prices?",
       des: "Our tours (for 10+ pax) are currently priced at 400 USD per person, per night. Therefore, for example, a 5-day / 4-night trip through the Khwai Okavango totals 1600 USD per person. And, the full experience, which includes 4 nights in Khwai Okavango as well as 2 nights in the Savuti region and 2 nights in Chobe National Park, amounts to 3200 USD per person. Likewise, our tours (for under 10 pax) are currently priced at 470 USD per person, per night. Therefore, for example, the 5-day / 4-night trip through the Khwai Okavango totals 1880 USD per person. And, the full experience, which includes 4 nights in Khwai Okavango as well as 2 nights in the Savuti region and 2 nights in Chobe National Park, amounts to 3760 USD per person.",
       des2: "PLEASE NOTE THAT OUR RATES VARY AND WILL ONLY BE CONFIRMED ON ENQUIRY.",
     },
     {
       id: "collapseThreePage",
-      class: "icon page",
-      class2: "faq__area-item-body collapse show",
+      class: "icon page collapsed",
+      class2: "faq__area-item-body collapse",
       title: "What are your options?",
       des: "The Khwai Okavango, Savuti and Chobe National Park packages as well as the Victoria Falls, Kalahari Desert and Birding Safaris may be booked together as a full experience or individually or in combinations as preferred.",
-
     },
   ],
 };
 const { faqOne } = faqData;
+
+const scrollToArticle = (sectionId) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+};
 
 const TripDetails = () => {
   return (
@@ -40,20 +49,47 @@ const TripDetails = () => {
                 <div className="all__sidebar-item-category">
                   <ul>
                     <li>
-                      <Link href="#khwai">
+                      <a onClick={() => scrollToArticle("khwai")} href="#">
                         <i className="far fa-angle-double-right"></i>Khwai
                         Okavango
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="active" href="#savuti">
+                      <Link onClick={() => scrollToArticle("savuti")} href="#">
                         <i className="far fa-angle-double-right"></i>Savuti
                       </Link>
                     </li>
                     <li>
-                      <Link href="#chobe">
+                      <Link onClick={() => scrollToArticle("chobe")} href="#">
                         <i className="far fa-angle-double-right"></i>Chobe
                         National Park
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => scrollToArticle("kalahari")}
+                        href="#"
+                      >
+                        <i className="far fa-angle-double-right"></i>Kalahari
+                        Desert
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => scrollToArticle("victoria")}
+                        href="#"
+                      >
+                        <i className="far fa-angle-double-right"></i>Victoria
+                        Falls
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => scrollToArticle("birdwatching")}
+                        href="#"
+                      >
+                        <i className="far fa-angle-double-right"></i>Birdwathing
+                        Safari
                       </Link>
                     </li>
                   </ul>
@@ -68,19 +104,17 @@ const TripDetails = () => {
                   <div className="all__sidebar-item-help-contact-content">
                     <span>Reach out</span>
                     <h6>
-                      <span>Support@shangamera.com</span>
+                      <span>info@shangamera.com</span>
                     </h6>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-xxl-9 col-xl-8 col-lg-8">
+          <div id="khwai" className="col-xxl-9 col-xl-8 col-lg-8">
             <div className="services__details-left">
               <div className="services__details-left-content">
-                <h2 id="khwai" className="mb-30">
-                  Khwai Okavango
-                </h2>
+                <h2 className="mb-30">Khwai Okavango</h2>
                 <p className="mb-0">
                   The Khwai Concession in Botswana's Okavango Delta is a
                   180,000-hectare gem teeming with diverse wildlife and stunning
@@ -147,12 +181,10 @@ const TripDetails = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div id="savuti">
             <div className="services__details-left">
               <div className="services__details-left-content">
-                <h2 id="savuti" className="mb-30">
-                  Savuti
-                </h2>
+                <h2 className="mb-30">Savuti</h2>
                 <p className="mb-0">
                   Savuti, located in the Chobe National Park of Botswana, is
                   renowned for its dramatic landscapes and rich wildlife
@@ -225,9 +257,9 @@ const TripDetails = () => {
                 </div>
               </div>
             </div>
-            <div className="services__details-left">
+            <div id="chobe" className="services__details-left">
               <div className="services__details-left-content">
-                <h2 id="chobe" scroll={false} className="mb-30">
+                <h2 scroll={false} className="mb-30">
                   Chobe National Park
                 </h2>
                 <p className="mb-0">
@@ -295,6 +327,229 @@ const TripDetails = () => {
                   </div>
                 </div>
               </div>
+              <div id="kalahari">
+                <div className="services__details-left">
+                  <div className="services__details-left-content">
+                    <h2 className="mb-30">Kalahari Desert</h2>
+                    <p className="mb-0">
+                      The Kalahari Desert, a vast expanse of arid beauty,
+                      stretches across southern Africa, covering parts of
+                      Botswana, Namibia, and South Africa. Despite its name,
+                      it's not a true desert but a semi-arid savanna, teeming
+                      with diverse wildlife and unique ecosystems. Spanning over
+                      900,000 square kilometers, the Kalahari is home to iconic
+                      species such as the black-maned Kalahari lion, meerkats,
+                      and the elusive pangolin.
+                    </p>
+                    <span>
+                      This "green desert" bursts with life, especially after
+                      rare rainfalls, transforming the landscape into a lush
+                      paradise.
+                    </span>
+                    <p>
+                      Safari experiences in the Kalahari range from luxury
+                      lodges to immersive conservation projects, allowing
+                      visitors to contribute to wildlife research and protection
+                      efforts. Whether tracking animals on game drives,
+                      observing meerkats, or marveling at the iconic red dunes,
+                      the Kalahari Desert provides a truly unique and
+                      unforgettable African safari experience.
+                    </p>
+                    <div className="row align-items-center mt-35 mb-35">
+                      <div className="col-xl-6 col-lg-12">
+                        <h3 className="mb-20">Kalahari Exploration</h3>
+                        <p>
+                          Exploring the Kalahari Desert offers an unforgettable
+                          adventure through one of Africa's most captivating
+                          landscapes. Known for its striking red sand dunes and
+                          vast salt pans, the Kalahari is a haven for wildlife
+                          enthusiasts.
+                        </p>
+                        <p>
+                          The desert hosts remarkable wildlife, including
+                          black-maned lions, elusive leopards, and agile
+                          springboks. Game drives are particularly rewarding
+                          during the dry season when animals gather around
+                          waterholes, with early morning and late afternoon
+                          excursions providing the best viewing opportunities.
+                        </p>
+                        <p>
+                          Birdwatchers will delight in spotting over 260
+                          species, such as the vibrant Lilac-breasted Roller and
+                          the Kalahari Scrub Robin. The region's diverse
+                          habitats support a rich tapestry of avian life.
+                        </p>
+                        {/*                         <div className="mb-30">
+                          <h3 className="mb-20">Package includes</h3>
+                          <div className="services__details-left-content-list">
+                            <p>
+                              <i className="fas fa-map"></i>
+                              Game drives
+                            </p>
+                            <p>
+                              <i className="fas fa-map"></i>
+                              2-night stay in Savuti
+                            </p>
+                          </div>
+                        </div> */}
+                      </div>
+                      <div className="col-xl-6 col-lg-12 xl-mb-30">
+                        <img
+                          className="img__full"
+                          src="/img/unsplashed/leon-pauleikhoff-G6oow3hC7UU-unsplash.jpg"
+                          alt="Photo by Leon Pauleikhoff on Unsplash"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="victoria" className="services__details-left-content">
+                <h2 scroll={false} className="mb-30">
+                  Victoria Falls
+                </h2>
+                <p className="mb-0">
+                  Victoria Falls, one of the world's most spectacular natural
+                  wonders, straddles the border between Zimbabwe and Zambia.
+                  This UNESCO World Heritage site is a breathtaking spectacle,
+                  where the mighty Zambezi River plunges over a cliff, creating
+                  a curtain of water 1.7 kilometers wide and up to 108 meters
+                  high. Known locally as Mosi-oa-Tunya, or "The Smoke that
+                  Thunders," the falls create a mist visible from kilometers
+                  away.
+                </p>
+                <span>
+                  The area surrounding Victoria Falls is a paradise for nature
+                  lovers and adventure seekers alike. The lush rainforest
+                  nurtured by the falls' spray hosts a diverse ecosystem,
+                  including over 400 bird species and a variety of mammals such
+                  as elephants, hippos, and crocodiles.
+                </span>
+                <div className="row align-items-center mt-35 mb-35">
+                  <div className="col-xl-6 col-lg-12 xl-mb-30">
+                    <img
+                      className="img__full"
+                      src="/img/unsplashed/chris-boland-afGA-TbGNbA-unsplash.jpg"
+                      alt="Picture by Chris Boland"
+                    />
+                  </div>
+                  <div className="col-xl-6 col-lg-12">
+                    <h3 className="mb-20">The Victoria Falls Experience</h3>
+                    <p>
+                      Exploring Victoria Falls offers an unparalleled experience
+                      combining natural beauty and thrilling activities. The
+                      falls can be viewed from various vantage points, with the
+                      most popular being the rainforest walk on the Zimbabwean
+                      side, offering face-to-face encounters with the cascading
+                      water.
+                    </p>
+                    <p>
+                      Wildlife enthusiasts will find the surrounding national
+                      parks teeming with life. Elephants, buffalo, zebras, and
+                      various antelope species roam freely, while baboons and
+                      vervet monkeys are common sights. For bird lovers, the
+                      area is a haven, with species ranging from the majestic
+                      African fish eagle to the colorful malachite kingfisher.
+                    </p>
+                    {/*                     <h3 className="mb-20">Package includes</h3>
+                    <div className="services__details-left-content-list">
+                      <p>
+                        <i className="fas fa-map"></i>Game drives
+                      </p>
+                      <p>
+                        <i className="fas fa-map"></i>Sunset boat cruise on the
+                        Chobe River
+                      </p>
+                      <p>
+                        <i className="fas fa-map"></i>
+                        2-night stay in Chobe National Park
+                      </p>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
+
+              <div id="birdwatching" className="services__details-left">
+                <div className="services__details-left-content">
+                  <h2 className="mb-30">Birdwatching Safaris</h2>
+                  <p className="mb-0">
+                    Birdwatching safaris in the Khwai Delta present an
+                    extraordinary opportunity to explore one of Africa's richest
+                    avian habitats. This region, characterized by its diverse
+                    ecosystems of lagoons, marshes, and woodlands, is home to
+                    nearly 500 bird species, making it a paradise for bird
+                    enthusiasts.
+                  </p>
+                  <span>
+                    From the vibrant lilac-breasted roller to the majestic
+                    African fish eagle, the variety of birds here captivates
+                    both novice and experienced birdwatchers alike.
+                  </span>
+                  <p>
+                    The seasonal changes in the Khwai Delta enhance the
+                    birdwatching experience, with summer months bringing
+                    migratory species that add to the local population. The
+                    wetlands attract numerous waterfowl, while open grasslands
+                    host raptors and other terrestrial birds. The chance to
+                    observe rare species, such as the Rosy-throated Longclaw and
+                    Slaty Egret, makes every outing unique and exciting.
+                  </p>
+                  <div className="row align-items-center mt-35 mb-35">
+                    <div className="col-xl-6 col-lg-12">
+                      <h3 className="mb-20">
+                        Avian Wonders of the Khwai Delta
+                      </h3>
+                      <p>
+                        Exploring the Khwai Delta on a birdwatching safari is an
+                        immersive experience that combines stunning landscapes
+                        with rich biodiversity. Guided tours often include early
+                        morning and late afternoon excursions when birds are
+                        most active, providing optimal viewing conditions. The
+                        knowledgeable guides share insights about bird behavior
+                        and habitat, enriching the experience.
+                      </p>
+                      <p>
+                        Visitors can expect to see a wide range of species,
+                        including colorful bee-eaters, elegant herons, and
+                        various storks. The interplay between predators and
+                        their prey adds drama to the experience, as birdwatchers
+                        may witness hunting behaviors firsthand. Additionally,
+                        the serene backdrop of the Khwai River enhances the
+                        tranquility of birdwatching while providing
+                        opportunities to spot hippos and crocodiles basking in
+                        the sun.
+                      </p>
+                      <p>
+                        Whether from a boat gliding through papyrus channels or
+                        on foot in dry woodlands, birdwatching safaris in the
+                        Khwai Delta promise unforgettable encounters with
+                        nature's feathered wonders.
+                      </p>
+                      {/*                         <div className="mb-30">
+                          <h3 className="mb-20">Package includes</h3>
+                          <div className="services__details-left-content-list">
+                            <p>
+                              <i className="fas fa-map"></i>
+                              Game drives
+                            </p>
+                            <p>
+                              <i className="fas fa-map"></i>
+                              2-night stay in Savuti
+                            </p>
+                          </div>
+                        </div> */}
+                    </div>
+                    <div className="col-xl-6 col-lg-12 xl-mb-30">
+                      <img
+                        className="img__full"
+                        src="/img/unsplashed/amaryllis-liampoti-rN8MB3b7_08-unsplash.jpg"
+                        alt="Photo by Amaryllis Liampoti on Unsplash"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div id="accordionExamplePage">
                 {faqOne?.map((data, id) => (
                   <div className="faq__area-item" key={id}>

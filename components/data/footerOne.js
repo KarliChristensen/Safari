@@ -12,18 +12,37 @@ const footerOne = {
   ],
   title_3: "Gallery",
   title_4: "Office Info",
-  office_des: "1234 Lake Tahoe Blvd, South Lake Tahoe , California USA",
+  office_des: "PO Box 834, Kasane, Republic of Botswana",
   officeInfos: [
     /*         {link:'https://www.google.com/maps',info:'GXF4+8HQ Chippenham United Kingdom',icon: <i className="fal fa-map-marked-alt"></i>}, */
     {
-      link: "mailto:support@shangamera.com",
-      info: "support@shangamera.com",
+      link: "mailto:info@shangamera.com",
+      info: "info@shangamera.com",
       icon: <i className="fal fal fa-envelope-open-text"></i>,
     },
     {
-      link: "tel:(+27)837671046",
+      link: "tel:+27837671046",
       info: "(+27) 83 767 1046",
       icon: <i className="fal fa-phone-alt"></i>,
+    },
+    {
+      link: "https://g.co/kgs/qE19rSd",
+      info: "Your Destination",
+      icon: <i className="fal fa-map"></i>,
+    },
+  ],
+  compliance: [
+    {
+      title: "Terms & Conditions",
+      link: "/compliance/Website-Terms-and-Conditions.pdf",
+    },
+    {
+      title: "Privacy Policy",
+      link: "/compliance/Privacy-policy.pdf",
+    },
+    {
+      title: "Disclaimer",
+      link: "/compliance/Disclaimer.pdf",
     },
   ],
 };

@@ -30,7 +30,22 @@ const FooterTwo = () => {
             </div>
             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-4 lg-mb-30">
               <div className="footer__two-widget">
-                <h5>Pages Links</h5>
+                <h5>Pages</h5>
+                <div className="footer__two-widget-menu">
+                  <ul>
+                    {footerOne.widgetMenus.map((item, index) => (
+                      <li key={index}>
+                        <Link href={item.link}>
+                          <i className="fal fa-angle-double-right"></i>
+                          {item.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <div className="footer__two-widget">
+                <h5>Pages</h5>
                 <div className="footer__two-widget-menu">
                   <ul>
                     {footerOne.widgetMenus.map((item, index) => (

@@ -83,7 +83,7 @@ const Contactcontainer = () => {
 
       // Show error message in modal
       setModalMessage(
-        "Something went wrong, try again or reach out to us at Support@shangamera.com."
+        "Something went wrong, try again or reach out to us at info@shangamera.com."
       );
       setIsModalOpen(true);
     } finally {
@@ -466,7 +466,7 @@ const Contactcontainer = () => {
                           }}
                           htmlFor="boatcruise"
                         >
-                          Boatcruise
+                          Boat cruises
                         </label>
                       </div>
                     </div>

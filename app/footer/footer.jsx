@@ -44,7 +44,11 @@ export default function Footer() {
                   </Link>
                 </div>
                 {/* Company description */}
-                <p>Discover Botswana</p>
+
+                <p className="mb-0">Discover Botswana</p>
+                <p className="mb-0">Deborah Tours and Safaris (Pty) Ltd</p>
+                <p className="mb-0">CRN: BW00006277908</p>
+
                 {/*               <div className="footer__area-widget-about-social">
                   <Social />
                 </div> */}
@@ -76,12 +80,35 @@ export default function Footer() {
           <div className="col-xl-2 col-lg-2 col-md-5 col-sm-4 sm-mb-30">
             <div className="footer__area-widget">
               {/* Page links */}
-              <h5>Pages Links</h5>
+              <h5>Pages</h5>
               <div className="footer__area-widget-menu">
                 <ul>
                   {footerOne.widgetMenus.map((item, index) => (
                     <li key={index}>
                       <Link href={item.link}>
+                        <i className="fal fa-angle-double-right"></i>
+                        {item.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-2 col-lg-2 col-md-5 col-sm-4 sm-mb-30">
+            <div className="footer__area-widget">
+              {/* Page links */}
+              <h5>Compliance</h5>
+              <div className="footer__area-widget-menu">
+                <ul>
+                  {footerOne.compliance.map((item, index) => (
+                    <li key={index}>
+                      <Link
+                        alt="alt text"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={item.link}
+                      >
                         <i className="fal fa-angle-double-right"></i>
                         {item.title}
                       </Link>
