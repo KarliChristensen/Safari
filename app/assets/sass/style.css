@@ -5444,6 +5444,9 @@ Footer
   margin-bottom: 15px;
   align-items: center;
 }
+.footer__area-widget-contact p {
+  color: var(--color-3);
+}
 .footer__area-widget-contact-item:last-child {
   margin: 0;
 }

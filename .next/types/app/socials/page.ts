@@ -1,4 +1,4 @@
-// File: Y:\Post\Safari\app\socials\page.jsx
+// File: C:\Users\Karli\Projects\Safari\app\socials\page.jsx
 import * as entry from '../../../../app/socials/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

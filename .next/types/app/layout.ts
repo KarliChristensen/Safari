@@ -1,4 +1,4 @@
-// File: Y:\Post\Safari\app\layout.jsx
+// File: C:\Users\Karli\Projects\Safari\app\layout.jsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -137,7 +137,7 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Office Address</span>
                     <h6>
-                      <a href="#">GXF4+8HQ Chippenham United Kingdom </a>
+                      <a href="#">P.O. Box 834, Kasane, Republic of Botswana</a>
                     </h6>
                   </div>
                 </div>

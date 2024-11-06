@@ -396,8 +396,8 @@ const TripDetails = () => {
                       <div className="col-xl-6 col-lg-12 xl-mb-30">
                         <img
                           className="img__full"
-                          src="/img/unsplashed/leon-pauleikhoff-G6oow3hC7UU-unsplash.jpg"
-                          alt="Photo by Leon Pauleikhoff on Unsplash"
+                          src="/img/unsplashed/chris-stenger-sULbb5Jtte8-unsplash.jpg"
+                          alt="Photo by Chris Stenger on Unsplash"
                         />
                       </div>
                     </div>

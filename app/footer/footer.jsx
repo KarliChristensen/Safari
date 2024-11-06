@@ -16,6 +16,14 @@ const {
   officeInfos,
 } = footerOne;
 
+const facebook =
+  "https://www.facebook.com/people/Shangamera-Tours-and-Safaris-Pty-Ltd/61568165613240/";
+const linkedin = "";
+const mail = "mailto:info@Shangamera.com";
+const telephone = "+27837671046";
+const map = "https://g.co/kgs/qE19rSd";
+const instagram = "https://www.instagram.com/shangamera.tours.and.safaris/";
+
 const pageslink = [
   "Room Cleaning",
   "Car Parking",
@@ -45,35 +53,18 @@ export default function Footer() {
                 </div>
                 {/* Company description */}
 
-                <p className="mb-0">Discover Botswana</p>
-                <p className="mb-0">Deborah Tours and Safaris (Pty) Ltd</p>
-                <p className="mb-0">CRN: BW00006277908</p>
+                <p className="">Discover Botswana</p>
 
-                {/*               <div className="footer__area-widget-about-social">
-                  <Social />
-                </div> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 lg-mb-30">
-            <div className="footer__area-widget">
-              {/* Contact information */}
-              <h5>Information</h5>
-              <div className="footer__area-widget-contact">
-                {/* Address */}
-                {footerOne.officeInfos.map((item, index) => (
-                  <div className="footer__area-widget-contact-item" key={index}>
-                    <div className="footer__area-widget-contact-item-icon">
-                      {item.icon}
-                    </div>
-                    <div className="footer__area-widget-contact-item-content">
-                      {/* Address details */}
-                      <span>
-                        <Link href={item.link}>{item.info}</Link>
-                      </span>
-                    </div>
-                  </div>
-                ))}
+                <div className="footer__area-widget-about-social">
+                  <Social
+                    facebook={facebook}
+                    linkedin={linkedin}
+                    mail={mail}
+                    telephone={telephone}
+                    map={map}
+                    instagram={instagram}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -115,6 +106,25 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 lg-mb-30">
+            <div className="footer__area-widget">
+              {/* Contact information */}
+              <h5>Information</h5>
+              <div className="footer__area-widget-contact">
+                {/* Address */}
+
+                <div className="">
+                  <p className="mb-2">
+                    Deborah Tours and Safaris (Pty) Ltd
+                  </p>
+                  <p className="mb-2">
+                    T/A Shangamera Tours and Safari (Pty) Ltd
+                  </p>
+                  <p className="mb-2">UIN: BW00006277908</p>
+                </div>
               </div>
             </div>
           </div>
