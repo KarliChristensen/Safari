@@ -61,8 +61,8 @@ const Contactcontainer = () => {
         subject: "",
         khwai: "",
         victoria: false,
-        kalahari: "",
-        birds: "",
+        kalahari: false,
+        birds: false,
         gamev: false,
         guidedw: false,
         birdw: false,
@@ -264,7 +264,7 @@ const Contactcontainer = () => {
                           marginBottom: "10px",
                         }}
                       >
-                        Optional add-ons to your Chobe stay
+                        Optional add-ons to your trip
                       </h6>
                       <div className="relative">
                         <input
@@ -289,66 +289,78 @@ const Contactcontainer = () => {
                         >
                           Victoria Falls
                         </label>
-                      </div>
-                    </div>
-                    <div className="col-sm-12 mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-compass"></i>
                         <input
-                          type="number"
+                          style={{
+                            marginLeft: "20px",
+                            accentColor: "#B89146",
+                            outlineColor: "#B89146",
+                          }}
+                          type="checkbox"
+                          id="kalaharidesert"
+                          checked={formData.kalahari}
+                          onChange={handleChange}
                           name="kalahari"
-                          className="peer/khwai invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-500"
-                          placeholder="Kalahari Desert – People travelling"
-                          value={formData.kalahari}
-                          onChange={handleChange}
-                          min={4}
-                          required
                         />
-                        <span className="collapse peer-invalid/khwai:visible mt-2 ml-5 text-xs text-gray-600 opacity-50 transition-all duration-300 ease-in-out">
-                          Minimum 4 people required
-                        </span>
-                      </div>
-                    </div>
-                    <div className="col-sm-12 mb-30">
-                      <div className="contact__area-form-item mb-30">
-                        <i className="far fa-compass"></i>
-                        <input
-                          type="number"
-                          name="birds"
-                          className="peer/khwai invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-500"
-                          placeholder="Birdwatching Safari – People travelling"
-                          value={formData.birds}
-                          onChange={handleChange}
-                          min={4}
-                          required
-                        />
-                        <span className="collapse peer-invalid/khwai:visible mt-2 ml-5 text-xs text-gray-600 opacity-50 transition-all duration-300 ease-in-out">
-                          Minimum 4 people required
-                        </span>
-                      </div>
-                      <div className="col-sm-12 mb-30">
-                      <h6
-                        style={{
-                          marginLeft: "12px",
-                          marginBottom: "10px",
-                        }}
-                      >
-                        Personalise your stay
-                      </h6>
-                      <div className="relative">
                         <label
                           style={{
                             color: "gray",
                             fontSize: "14px",
                             marginLeft: "12px",
                           }}
-                          htmlFor="victoriafalls"
+                          htmlFor="kalaharidesert"
                         >
-                          So that we may get to know you better, please indicate which of the following activities you are interested in by ticking one or more of the options below:
-                        
+                          Kalahari Desert
+                        </label>
+                        <input
+                          style={{
+                            marginLeft: "20px",
+                            accentColor: "#B89146",
+                            outlineColor: "#B89146",
+                          }}
+                          type="checkbox"
+                          id="birdwatching2"
+                          checked={formData.birds}
+                          onChange={handleChange}
+                          name="birds"
+                        />
+                        <label
+                          style={{
+                            color: "gray",
+                            fontSize: "14px",
+                            marginLeft: "12px",
+                          }}
+                          htmlFor="birdwatching2"
+                        >
+                          Birdwatching Safari
                         </label>
                       </div>
                     </div>
+                    <div className="col-sm-12 mb-30">
+                      <div className="col-sm-12 mb-30">
+                        <h6
+                          style={{
+                            marginLeft: "12px",
+                            marginBottom: "10px",
+                          }}
+                        >
+                          Personalise your stay
+                        </h6>
+                        <div className="relative">
+                          <label
+                            style={{
+                              color: "gray",
+                              fontSize: "14px",
+                              marginLeft: "12px",
+                            }}
+                            htmlFor="victoriafalls"
+                          >
+                            So that we may get to know you better, please
+                            indicate which of the following activities you are
+                            interested in by ticking one or more of the options
+                            below:
+                          </label>
+                        </div>
+                      </div>
                       <div className="relative">
                         <input
                           style={{

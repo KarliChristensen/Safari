@@ -40,17 +40,17 @@
         "async": false
       }
     },
-    "(app-client)/./app/trip-details/page.jsx": {
+    "(app-client)/./app/layout.jsx": {
       "*": {
-        "id": "(sc_client)/./app/trip-details/page.jsx",
+        "id": "(sc_client)/./app/layout.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/about/page.jsx": {
+    "(app-client)/./app/booking/page.jsx": {
       "*": {
-        "id": "(sc_client)/./app/about/page.jsx",
+        "id": "(sc_client)/./app/booking/page.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -72,22 +72,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/header/HeaderOne.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/header/HeaderOne.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/seo.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/seo.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/accommodations/accommodations.jsx": {
       "*": {
         "id": "(sc_client)/./app/accommodations/accommodations.jsx",
@@ -104,6 +88,14 @@
         "async": false
       }
     },
+    "(app-client)/./app/blog/blog.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/blog/blog.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./app/deluxe/deluxe.jsx": {
       "*": {
         "id": "(sc_client)/./app/deluxe/deluxe.jsx",
@@ -112,9 +104,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/blog/blog.jsx": {
+    "(app-client)/./app/header/HeaderOne.jsx": {
       "*": {
-        "id": "(sc_client)/./app/blog/blog.jsx",
+        "id": "(sc_client)/./app/header/HeaderOne.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -128,14 +120,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/videoarea/videoarea.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/videoarea/videoarea.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/testimonial/testimonial.jsx": {
       "*": {
         "id": "(sc_client)/./app/testimonial/testimonial.jsx",
@@ -144,17 +128,17 @@
         "async": false
       }
     },
-    "(app-client)/./app/layout.jsx": {
+    "(app-client)/./app/videoarea/videoarea.jsx": {
       "*": {
-        "id": "(sc_client)/./app/layout.jsx",
+        "id": "(sc_client)/./app/videoarea/videoarea.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/booking/page.jsx": {
+    "(app-client)/./components/seo.jsx": {
       "*": {
-        "id": "(sc_client)/./app/booking/page.jsx",
+        "id": "(sc_client)/./components/seo.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -243,19 +227,19 @@
       ],
       "async": false
     },
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\trip-details\\page.jsx": {
-      "id": "(app-client)/./app/trip-details/page.jsx",
+    "C:\\Users\\Karli\\Projects\\Safari\\app\\layout.jsx": {
+      "id": "(app-client)/./app/layout.jsx",
       "name": "*",
       "chunks": [
-        "app/trip-details/page:static/chunks/app/trip-details/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\about\\page.jsx": {
-      "id": "(app-client)/./app/about/page.jsx",
+    "C:\\Users\\Karli\\Projects\\Safari\\app\\booking\\page.jsx": {
+      "id": "(app-client)/./app/booking/page.jsx",
       "name": "*",
       "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
+        "app/booking/page:static/chunks/app/booking/page.js"
       ],
       "async": false
     },
@@ -263,7 +247,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -271,7 +255,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -279,7 +263,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -287,23 +271,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\header\\HeaderOne.jsx": {
-      "id": "(app-client)/./app/header/HeaderOne.jsx",
-      "name": "*",
-      "chunks": [
-        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Karli\\Projects\\Safari\\components\\seo.jsx": {
-      "id": "(app-client)/./components/seo.jsx",
-      "name": "*",
-      "chunks": [
-        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -323,6 +291,14 @@
       ],
       "async": false
     },
+    "C:\\Users\\Karli\\Projects\\Safari\\app\\blog\\blog.jsx": {
+      "id": "(app-client)/./app/blog/blog.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\Karli\\Projects\\Safari\\app\\deluxe\\deluxe.jsx": {
       "id": "(app-client)/./app/deluxe/deluxe.jsx",
       "name": "*",
@@ -331,8 +307,8 @@
       ],
       "async": false
     },
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\blog\\blog.jsx": {
-      "id": "(app-client)/./app/blog/blog.jsx",
+    "C:\\Users\\Karli\\Projects\\Safari\\app\\header\\HeaderOne.jsx": {
+      "id": "(app-client)/./app/header/HeaderOne.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -347,14 +323,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\videoarea\\videoarea.jsx": {
-      "id": "(app-client)/./app/videoarea/videoarea.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\Karli\\Projects\\Safari\\app\\testimonial\\testimonial.jsx": {
       "id": "(app-client)/./app/testimonial/testimonial.jsx",
       "name": "*",
@@ -363,39 +331,32 @@
       ],
       "async": false
     },
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\layout.jsx": {
-      "id": "(app-client)/./app/layout.jsx",
+    "C:\\Users\\Karli\\Projects\\Safari\\app\\videoarea\\videoarea.jsx": {
+      "id": "(app-client)/./app/videoarea/videoarea.jsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\booking\\page.jsx": {
-      "id": "(app-client)/./app/booking/page.jsx",
+    "C:\\Users\\Karli\\Projects\\Safari\\components\\seo.jsx": {
+      "id": "(app-client)/./components/seo.jsx",
       "name": "*",
       "chunks": [
-        "app/booking/page:static/chunks/app/booking/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\trip-details\\page": [
-      "static/css/app/trip-details/page.css"
-    ],
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\about\\page": [
-      "static/css/app/about/page.css"
-    ],
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\Users\\Karli\\Projects\\Safari\\app\\layout": [
       "static/css/app/layout.css"
     ],
     "C:\\Users\\Karli\\Projects\\Safari\\app\\booking\\page": [
       "static/css/app/booking/page.css"
     ],
-    "C:\\Users\\Karli\\Projects\\Safari\\app\\[not-found]\\page": []
+    "C:\\Users\\Karli\\Projects\\Safari\\app\\page": [
+      "static/css/app/page.css"
+    ]
   }
 }

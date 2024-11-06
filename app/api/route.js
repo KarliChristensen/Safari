@@ -36,20 +36,23 @@ export async function POST(request) {
       subject: `Booking from ${name}`,
       html: `
         <p>New booking via website form.</p>
+        <br>
         <p>From: <strong>${name}</strong></p>
         <p>Email: <strong>${email}</strong></p>
         <p>Phone: <strong>${phone}</strong></p>
-        <p>People wishing to travel:</p>
+        <strong><p>People wishing to travel:</p></strong>
         <ul>
           <li>Okavango Delta: <strong>${khwai}</strong>
           <li>Savuti: <strong>${savuti}</strong></li>
           <li>Chobe: <strong>${chobe}</strong>
-          Victoria Falls  -  <strong>${victoria ? "Yes" : "No"}</strong>
-            </li>
-          <li>Kalahari Desert: <strong>${kalahari}</strong></li>
-          <li>Birdwatching Safari: <strong>${birds}</strong></li>
+          </ul>
+          <strong>Optional add-ons:</strong>
+          <ul>
+          <li>Victoria Falls  -  <strong>${victoria ? "Yes" : "No"}</strong></li>
+          <li>Kalahari Desert  -  <strong>${kalahari ? "Yes" : "No"}</strong></li>
+          <li>Birdwatching Safari  -  <strong>${birds ? "Yes" : "No"}</strong></li>
         </ul>
-        <p>Personal preferences: 
+        <strong><p>Personal preferences:</p></strong> 
         <ul>
           <li>Game viewing - <strong>${gamev ? "Yes" : "No"}</strong></li>
           <li>Guided walks - <strong>${guidedw ? "Yes" : "No"}</strong></li>
@@ -57,9 +60,8 @@ export async function POST(request) {
           <li>Mokoro - <strong>${cano ? "Yes" : "No"}</strong></li>
           <li>Boat cruises - <strong>${boatc ? "Yes" : "No"}</strong></li>
           </ul>
-        </p>
-        <p>Further information: ${message}</p>
-      `,
+        <strong><p>Further information:</p></strong>
+          <p>${message}</p>`,
     };
 
     await transporter.sendMail(mailOptions);

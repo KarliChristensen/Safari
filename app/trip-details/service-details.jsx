@@ -88,8 +88,8 @@ const TripDetails = () => {
                         onClick={() => scrollToArticle("birdwatching")}
                         href="#"
                       >
-                        <i className="far fa-angle-double-right"></i>Birdwathing
-                        Safari
+                        <i className="far fa-angle-double-right"></i>
+                        Birdwatching Safari
                       </Link>
                     </li>
                   </ul>
