@@ -1,3 +1,4 @@
+// app/page.jsx
 import Accommodations from "./accommodations/accommodations";
 import Banner from "./banner/banner";
 import Blog from "./blog/blog";
@@ -15,17 +16,19 @@ export default function Home() {
   return (
     <>
       <SEO pageTitle="Home" />
-      <HeaderOne />
-      <Banner />
-      <Accommodations />
-      {/* <Deluxe /> */}
-      <Videoarea />
-      {/* <Services /> */}
-      {/*  <Feature /> */}
-      {/* <Testimonial /> */}
-      {/* <Blog /> */}
-      <Footer />
-      <ScrollToTopButton />
+      <div>
+        <HeaderOne />
+        <Banner />
+        <Accommodations />
+        {/* <Deluxe /> */}
+        <Videoarea />
+        {/* <Services /> */}
+        {/* <Feature /> */}
+        {/* <Testimonial /> */}
+        {/* <Blog /> */}
+        <Footer />
+        <ScrollToTopButton />
+      </div>
     </>
   );
 }
