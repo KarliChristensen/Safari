@@ -21,8 +21,8 @@ const footerOne = {
       icon: <i className="fal fal fa-envelope-open-text"></i>,
     },
     {
-      link: "tel:+27837671046",
-      info: "(+27) 83 767 1046",
+      link: "tel:+27000000000",
+      info: "(+27) 000000000",
       icon: <i className="fal fa-phone-alt"></i>,
     },
     {

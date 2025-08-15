@@ -1,5 +1,6 @@
 // layout.jsx
 "use client";
+import 'react-modal-video/css/modal-video.min.css';
 import NextTopLoader from "nextjs-toploader";
 import { useEffect } from "react";
 import "./styles/styles.css";
