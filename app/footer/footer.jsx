@@ -19,8 +19,8 @@ const {
 const facebook =
   "https://www.facebook.com/people/Shangamera-Tours-and-Safaris-Pty-Ltd/61568165613240/";
 const linkedin = "";
-const mail = "mailto:info@Shangamera.com";
-const telephone = "+27837671046";
+const mail = "mailto:null@shangamera.com";
+const telephone = "+27 35 353 5353";
 const map = "https://g.co/kgs/qE19rSd";
 const instagram = "https://www.instagram.com/shangamera.tours.and.safaris/";
 

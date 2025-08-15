@@ -83,7 +83,7 @@ const Contactcontainer = () => {
 
       // Show error message in modal
       setModalMessage(
-        "Something went wrong, try again or reach out to us at info@shangamera.com."
+        "Something went wrong, try again or reach out to us at null@shangamera.com."
       );
       setIsModalOpen(true);
     } finally {
@@ -113,7 +113,7 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Phone</span>
                     <h6>
-                      <a href="tel:+27837671046">+27 83 767 1046</a>
+                      <a href="tel:+27 35 353 5353">+27 35 353 5353</a>
                     </h6>
                   </div>
                 </div>
@@ -124,8 +124,8 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Email</span>
                     <h6>
-                      <a href="mailto:info@shangamera.com">
-                        info@shangamera.com
+                      <a href="mailto:null@shangamera.com">
+                        null@shangamera.com
                       </a>
                     </h6>
                   </div>

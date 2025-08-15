@@ -1,5 +1,6 @@
 // layout.jsx
 "use client";
+import 'react-modal-video/css/modal-video.min.css';
 import NextTopLoader from "nextjs-toploader";
 import { useEffect } from "react";
 import "./styles/styles.css";
@@ -35,7 +36,7 @@ const BlockedPage = () => {
         <p>The business is operating without consent from shareholders.</p>
         <p>
           For any complaints or inquiries, please contact{" "}
-          <a href="mailto:info@shangamera.com">info@shangamera.com</a>{" "}
+          <a href="mailto:null@shangamera.com">null@shangamera.com</a>{" "}
         </p>
       </div>
     </div>

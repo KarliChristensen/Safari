@@ -16,13 +16,13 @@ const footerOne = {
   officeInfos: [
     /*         {link:'https://www.google.com/maps',info:'GXF4+8HQ Chippenham United Kingdom',icon: <i className="fal fa-map-marked-alt"></i>}, */
     {
-      link: "mailto:info@shangamera.com",
-      info: "info@shangamera.com",
+      link: "mailto:null@shangamera.com",
+      info: "null@shangamera.com",
       icon: <i className="fal fal fa-envelope-open-text"></i>,
     },
     {
-      link: "tel:+27837671046",
-      info: "(+27) 83 767 1046",
+      link: "tel:+27 35 353 5353",
+      info: "(+27)35 353 5353 1046",
       icon: <i className="fal fa-phone-alt"></i>,
     },
     {

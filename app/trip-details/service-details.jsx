@@ -104,7 +104,7 @@ const TripDetails = () => {
                   <div className="all__sidebar-item-help-contact-content">
                     <span>Reach out</span>
                     <h6>
-                      <span>info@shangamera.com</span>
+                      <span>null@shangamera.c</span>
                     </h6>
                   </div>
                 </div>

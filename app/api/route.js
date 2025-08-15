@@ -32,7 +32,7 @@ export async function POST(request) {
 
     const mailOptions = {
       from: process.env.ZOHO_EMAIL,
-      to: "booking@shangamera.com",
+      to: "null@shangamera.com",
       subject: `Booking from ${name}`,
       html: `
         <p>New booking via website form.</p>
